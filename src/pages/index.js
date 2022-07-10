@@ -1,20 +1,15 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import "../styling/index.css";
 
 import Blog from "./blog";
+import LeftSideBar from "../templates/left-sidebar";
 
 export default function Home({ data }) {
-  const { title, description } = data.site.siteMetadata;
 
   return (
     <div className="siteContainer">
-      <div className="leftSidebar">
-        <div className="siteTitle">{title}</div>
-        <p>{description}</p>
-        <input type="text" placeholder="search..." />
-        <img alt="Running totoro" src={data.image.publicURL}/>
-      </div>
+      <LeftSideBar data={data}/>
       <div className="postContainer">
         <Blog data={data} />
       </div>

@@ -11,14 +11,10 @@ export default function Blog({ data }) {
         <div>
             {posts.map(post => (
                 <Link className="post" to={post.fields.slug}>
-                    <article key={post.id}>
-                        <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
-                        
-                            <div className="postTitle">{post.frontmatter.title}</div>
-                        
-                        <small>{post.frontmatter.date}</small>
-                        <p>{post.excerpt}</p>
-                    </article>
+                    <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
+                    <div className="postTitle">{post.frontmatter.title}</div>
+                    <small>{post.frontmatter.date}</small>
+                    <p>{post.excerpt}</p>
                 </Link>
             ))}
         </div>

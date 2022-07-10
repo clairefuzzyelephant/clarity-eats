@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Share+Tech+Mono&display=swap');
+html {
+    background-color: rgb(245, 245, 238);
+}
+
 .siteContainer {
     top: 0;
     left: 0;
@@ -11,6 +15,7 @@
     color: rgb(27, 17, 2);
     display: flex;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
 
 .siteTitle {
