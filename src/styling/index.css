@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Share+Tech+Mono&display=swap');
 .siteContainer {
     top: 0;
     left: 0;
@@ -11,24 +10,50 @@
     background-color: rgb(245, 245, 238);
     color: rgb(27, 17, 2);
     display: flex;
+    justify-content: space-around;
+}
+
+.siteTitle {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 50px;
 }
 
 .leftSidebar {
     width: 300px;
     max-width: 30vw;
     height: fit-content;
-    outline: 1px solid rgba(27, 17, 2, 0.5);
-    border-radius: 10px;
-    box-shadow: 1px 1px 3px 1px rgba(27, 17, 2, 0.3);
-    padding: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 30px;
+    margin-top: 50px;
     text-align: center;
 }
 
 .leftSidebar img {
-    width: 200px;
+    margin-top: 50px;
+    width: 300px;
     height: 200px;
     object-fit: cover;
-    border-radius: 50%;
+}
+
+.postContainer {
+    margin-top: 50px;
+    width: 600px;
+    text-align: left;
+}
+
+.postContainer img {
+    border-radius: 10px;
+}
+
+.postTitle {
+    text-decoration: none;
+    color: rgb(27, 17, 2);
+    font-size: 20px;
+    margin-top: 20px;
+    /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); */
+}
+
+.post {
+    text-decoration: none;
+    color: rgb(27, 17, 2);
+    font-size: 14px;
 }
