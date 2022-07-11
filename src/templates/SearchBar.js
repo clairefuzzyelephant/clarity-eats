@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function SearchBar({ searchFunction }) {
+export default function SearchBar({ searchFunction, clearSearch }) {
     const [value, setValue] = useState("");
 
     function updateValue(e) {
@@ -12,6 +12,12 @@ export default function SearchBar({ searchFunction }) {
     }
 
     return (
-        <input type="text" placeholder="search..." onKeyDown={e => updateValue(e)} />
+        <div>
+            <input type="text" placeholder="press enter to search..." value={value} onChange={e => setValue(e.target.value)} onKeyDown={e => updateValue(e)} />
+            <button onClick={() => {
+                clearSearch();
+                setValue("");
+            }}>x</button>
+        </div>
     );
 }

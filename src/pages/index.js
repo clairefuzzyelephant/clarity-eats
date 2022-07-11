@@ -15,7 +15,7 @@ export default function Home(
 
   const [results, setResults] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
-  
+
   const getSearchResults = (query) => {
     var index = window.__FLEXSEARCH__.en.index
     var store = window.__FLEXSEARCH__.en.store
@@ -71,10 +71,16 @@ export default function Home(
     }
   }
 
+  function clearSearch() {
+    console.log("clearing");
+    setSearchQuery('');
+    setResults([]);
+  }
+
 
   return (
     <div className="siteContainer">
-      <LeftSideBar site={site} image={image} searchFunction={search} />
+      <LeftSideBar site={site} image={image} searchFunction={search} clearSearch={clearSearch} />
       <div className="postContainer">
         {results.length ? <ResultList /> : <Blog blog={blog} />}
       </div>
