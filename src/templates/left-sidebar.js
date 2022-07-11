@@ -1,15 +1,17 @@
 import React from "react";
 import "../styling/index.css";
 
-export default function LeftSideBar({ data }) {
-  const { title, description } = data.site.siteMetadata;
+import SearchBar from "./searchbar";
+
+export default function LeftSideBar({ site, image, searchFunction }) {
+  const { title, description } = site.siteMetadata;
 
   return (
     <div className="leftSidebar">
         <div className="siteTitle">{title}</div>
         <p>{description}</p>
-        <input type="text" placeholder="search..." />
-        <img alt="Running totoro" src={data.image.publicURL}/>
+        <SearchBar searchFunction={searchFunction} />
+        <img alt="Running totoro" src={image.publicURL}/>
     </div>
   )
 }

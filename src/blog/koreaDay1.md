@@ -1,7 +1,7 @@
 ---
-title: 「 gangnam, seoul 」 - korea, kyobo, and kbbq
+title: 「 seoul day 1 」 - korea, kyobo, and kbbq
 date: 2022-06-02
-featuredImage: ../images/koreaUdon.jpg
+featuredImage: ../images/IMG_9527_halved.jpg
 ---
 
 After my plane decided to ungraciously dump me in the middle of a new country a whole 1.5 hours before its scheduled arrival time, I was stuck in the Incheon International Airport 3:30 AM with no friends, no South Korean Won, no running trains, and no Korean language skills. Furthermore, there was barely anything open (as expected), and I spent half an hour wandering around looking for an operating Currency Exchange (thank god for the 24hr Woori Bank). After frantically texting my still-awake West Coast Korean-American chingu about how to load money onto my T-Money card, I finally arrived to Seoul Station around 7 AM to meet with a friend who had arrived the day before, and we decided to get breakfast inside the station at a fast-food place called Lotteria (which I am just finding out now... that Lotteria is a Japanese fast-food chain...)
