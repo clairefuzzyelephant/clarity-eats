@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import "../styling/single-post.css";
 
 export default function BlogPost({ data }) {
@@ -8,6 +8,9 @@ export default function BlogPost({ data }) {
   return (
     <div className="siteContainer">
       <div className="singlePostContainer">
+        <Link to="/" className="singlePostBackButton">
+          Back
+        </Link>
         <h1>{post.frontmatter.title}</h1>
         <small>{post.frontmatter.date}</small>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />

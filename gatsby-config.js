@@ -76,6 +76,7 @@ module.exports = {
             resolver: 'fields.slug',
             store: true,
           },
+          `gatsby-plugin-nodejs`,
         ],
       },
     },

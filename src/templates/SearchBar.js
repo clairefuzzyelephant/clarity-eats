@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import "../styling/index.css";
+
 export default function SearchBar({ searchFunction, clearSearch }) {
     const [value, setValue] = useState("");
 
@@ -12,12 +14,21 @@ export default function SearchBar({ searchFunction, clearSearch }) {
     }
 
     return (
-        <div>
-            <input type="text" placeholder="press enter to search..." value={value} onChange={e => setValue(e.target.value)} onKeyDown={e => updateValue(e)} />
-            <button onClick={() => {
-                clearSearch();
-                setValue("");
-            }}>x</button>
+        <div className="searchBar">
+            <div>
+                <input type="text" placeholder="press enter to search..." value={value} onChange={e => setValue(e.target.value)} onKeyDown={e => updateValue(e)} />
+            </div>
+            <div className="clearButton" 
+                onClick={() => {
+                    clearSearch();
+                    setValue("");
+                }} 
+                onKeyDown={() => {
+                    clearSearch(); 
+                    setValue("");}
+                }>
+                clear
+            </div>
         </div>
     );
 }

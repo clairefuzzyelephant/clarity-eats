@@ -6,3 +6,16 @@
     height: fit-content;
     font-family: 'Nunito Sans', sans-serif;
 }
+
+.singlePostBackButton {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(245, 245, 238);
+    text-decoration: none;
+    color: rgb(27, 17, 2);
+}
+
+.singlePostBackButton:hover {
+    color: rgb(96, 60, 7);
+}

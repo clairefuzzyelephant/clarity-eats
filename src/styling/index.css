@@ -39,6 +39,22 @@ html {
     object-fit: cover;
 }
 
+.searchBar {
+    display: flex;
+    width: 150px;
+    margin-left: 75px;
+}
+
+.clearButton {
+    margin-left: 10px;
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.clearButton:hover {
+    cursor: pointer;
+}
+
 .postContainer {
     margin-top: 50px;
     width: 600px;
