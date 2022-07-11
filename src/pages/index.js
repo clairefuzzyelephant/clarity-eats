@@ -4,6 +4,7 @@ import "../styling/index.css";
 
 import Blog from "./blog";
 import LeftSideBar from "../templates/left-sidebar";
+import Img from "gatsby-image";
 
 export default function Home(
   {data: {
@@ -52,11 +53,26 @@ export default function Home(
 
   const ResultList = () => {
     if (results.length > 0) {
+      let imgs = {};
+      for (let i = 0; i < results.length; i++) {
+        for (let j = 0; j < blog.posts.length; j++) {
+          console.log(results[i].title)
+          console.log(blog.posts[j].frontmatter.title)
+          if (results[i].title == blog.posts[j].frontmatter.title) {
+            console.log(blog.posts[j].frontmatter.featuredImage.childImageSharp.fluid);
+            imgs[results[i].title] = blog.posts[j].frontmatter.featuredImage.childImageSharp.fluid;
+          }
+        }
+      }
       return results.map((page, i) => (
-        <div className="item-search" key={i}>
+        <div key={i}>
           <Link className="item-search" to={page.url}>
-            <h4>{page.title}</h4>
-            <p>{page.body.slice(0, 140) + "..."}</p>
+            <div><img alt="" src={imgs[page.title].src} /></div>
+            {/* <Img src={imgs[page.title]} alt="" /> */}
+            <div>
+              <h4>{page.title}</h4>
+              <p>{page.body.slice(0, 140) + "..."}</p>
+            </div>
           </Link>
         </div>
       ))

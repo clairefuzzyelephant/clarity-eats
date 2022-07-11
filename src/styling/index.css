@@ -82,8 +82,23 @@ html {
     text-decoration: none;
     color: rgb(27, 17, 2);
     margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.item-search img {
+    width: 200px;
+    left: 0;
+    /* margin-top: 30px; */
 }
 
 .item-search h4 {
-    font-size: 20px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.item-search p {
+    margin-left: 20px;
+    font-size: 12px;
 }
