@@ -54,8 +54,9 @@ export default function Home(
     if (results.length > 0) {
       return results.map((page, i) => (
         <div className="item-search" key={i}>
-          <Link to={page.url} className="link">
+          <Link className="item-search" to={page.url}>
             <h4>{page.title}</h4>
+            <p>{page.body.slice(0, 140) + "..."}</p>
           </Link>
         </div>
       ))

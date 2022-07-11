@@ -70,6 +70,12 @@ module.exports = {
             },
             store: true,
           },
+          {
+            name: 'url',
+            indexed: false,
+            resolver: 'fields.slug',
+            store: true,
+          },
         ],
       },
     },

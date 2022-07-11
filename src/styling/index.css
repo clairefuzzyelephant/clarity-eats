@@ -77,3 +77,13 @@ html {
 .postBox {
     margin-bottom: 50px;
 }
+
+.item-search {
+    text-decoration: none;
+    color: rgb(27, 17, 2);
+    margin-bottom: 50px;
+}
+
+.item-search h4 {
+    font-size: 20px;
+}
