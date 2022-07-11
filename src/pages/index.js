@@ -67,9 +67,11 @@ export default function Home(
       return results.map((page, i) => (
         <div key={i}>
           <Link className="item-search" to={page.url}>
-            <div><img alt="" src={imgs[page.title].src} /></div>
+            <div className="item-search-pic">
+              <img alt="" src={imgs[page.title].src} />
+            </div>
             {/* <Img src={imgs[page.title]} alt="" /> */}
-            <div>
+            <div className="item-search-text">
               <h4>{page.title}</h4>
               <p>{page.body.slice(0, 140) + "..."}</p>
             </div>
