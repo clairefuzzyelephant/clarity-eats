@@ -13,6 +13,7 @@
     background-color: rgb(245, 245, 238);
     text-decoration: none;
     color: rgb(27, 17, 2);
+    padding: 5px 10px;
 }
 
 .singlePostBackButton:hover {
