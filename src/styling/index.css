@@ -18,6 +18,18 @@ html {
     padding-bottom: 50px;
 }
 
+.singlePostViewSiteContainer {
+    top: 0;
+    left: 0;
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100vw;
+    height: fit-content;
+    min-height: 100vh;
+    background-color: rgb(245, 245, 238);
+    color: rgb(27, 17, 2);
+}
+
 .siteTitle {
     font-family: 'Share Tech Mono', monospace;
     font-size: 50px;
@@ -75,6 +87,7 @@ html {
 .singlePostContainer {
     margin-top: 50px;
     width: 600px;
+    margin-left: calc(50vw - 340px);
     text-align: left;
     background-color: white;
     padding: 40px;

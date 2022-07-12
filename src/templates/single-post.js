@@ -6,7 +6,7 @@ export default function BlogPost({ data }) {
   const post = data.markdownRemark
 
   return (
-    <div className="siteContainer">
+    <div className="singlePostViewSiteContainer">
       <div className="singlePostContainer">
         <Link to="/" className="singlePostBackButton">
          ← back
