@@ -19,3 +19,42 @@
 .singlePostBackButton:hover {
     color: rgb(96, 60, 7);
 }
+
+.commentSection {
+    background-color: white;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: calc(50vw - 340px);
+    padding: 10px 40px 40px 40px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 60px;
+}
+
+.commentSectionName input {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 2px;
+    width: 500px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-inline: 10px;
+    border: 1px solid rgba(27, 17, 2, 0.5);
+}
+
+.commentSectionComment textarea {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 3px;
+    width: 500px;
+    border-radius: 10px;
+    padding-inline: 10px;
+    border: 1px solid rgba(27, 17, 2, 0.5);
+}
+
+.commentSectionSendButton button {
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 10px;
+    border: 1px solid rgba(27, 17, 2, 0.5);
+    padding-inline: 10px;
+    background-color: rgb(245, 245, 238);
+    color: rgb(27, 17, 2);
+}

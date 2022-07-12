@@ -13,7 +13,7 @@ export default function Blog() {
                         slug
                     }
                     frontmatter {
-                        date
+                        date(formatString: "LL")
                         title
                         featuredImage{
                             childImageSharp {
