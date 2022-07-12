@@ -3,8 +3,7 @@ import { graphql, Link } from "gatsby"
 import "../styling/index.css";
 
 import Blog from "./blog";
-import LeftSideBar from "../templates/left-sidebar";
-import Img from "gatsby-image";
+import LeftSideBar from "../templates/left-sidebar.js";
 
 export default function Home(
   {data: {

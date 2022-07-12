@@ -1,7 +1,7 @@
 import React from "react";
 import "../styling/index.css";
 
-import SearchBar from "./searchbar";
+import SearchBar from "./SearchBar.js";
 
 export default function LeftSideBar({ site, image, searchFunction, clearSearch }) {
   const { title, description } = site.siteMetadata;
