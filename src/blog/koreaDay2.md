@@ -11,7 +11,7 @@ Note: obviously you don't *have* to rent a hanbok to enter the palace, although 
 <div>
     <img src="../images/koreaDay2/IMG_2823.jpg" 
         alt="Wearing hanbok at Gyeongbukgung palace"
-        style="height: 300px; object-fit:cover;display:inline-block"
+        style="height: 300px; object-fit:cover;display:inline-block;"
     />
 </div>
 

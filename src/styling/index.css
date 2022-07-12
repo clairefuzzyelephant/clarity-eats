@@ -21,6 +21,7 @@ html {
 .siteTitle {
     font-family: 'Share Tech Mono', monospace;
     font-size: 50px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .leftSidebar {
@@ -43,6 +44,7 @@ html {
     display: flex;
     width: 150px;
     margin-left: 75px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .searchBar input {
@@ -77,6 +79,7 @@ html {
     background-color: white;
     padding: 40px;
     border-radius: 10px;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .postTitle {
@@ -97,6 +100,10 @@ html {
 
 .postBox {
     margin-bottom: 50px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .item-search {
@@ -106,6 +113,9 @@ html {
     display: flex;
     justify-content: space-between;
     width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .item-search img {
