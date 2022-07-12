@@ -45,10 +45,15 @@ html {
     margin-left: 75px;
 }
 
+.searchBar input {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 1px;
+}
+
 .clearButton {
     margin-left: 10px;
     font-size: 12px;
-    padding-top: 3px;
+    padding-top: 4px;
 }
 
 .clearButton:hover {

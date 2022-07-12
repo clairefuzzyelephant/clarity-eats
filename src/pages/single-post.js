@@ -9,7 +9,7 @@ export default function BlogPost({ data }) {
     <div className="siteContainer">
       <div className="singlePostContainer">
         <Link to="/" className="singlePostBackButton">
-          Back
+         ← back
         </Link>
         <h1>{post.frontmatter.title}</h1>
         <small>{post.frontmatter.date}</small>
