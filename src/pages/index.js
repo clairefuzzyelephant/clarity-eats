@@ -100,7 +100,7 @@ export default function Home(
     <div className="siteContainer">
       <LeftSideBar site={site} image={image} searchFunction={search} clearSearch={clearSearch} />
       <div className="postContainer">
-        {results.length ? <ResultList /> : <Blog blog={blog} />}
+        {results.length ? <ResultList /> : <Blog />}
       </div>
     </div>
   )
