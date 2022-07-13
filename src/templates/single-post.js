@@ -1,9 +1,16 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import "../styling/single-post.css";
+import { Disqus, CommentCount } from 'gatsby-plugin-disqus';
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark
+
+  let disqusConfig = {
+    url: 'https://clarity-eats.netlify.app' + post.fields.slug, 
+    identifier: post.id, 
+    title: post.frontmatter.title,
+  };
 
   return (
     <div className="singlePostViewSiteContainer">
@@ -17,7 +24,11 @@ export default function BlogPost({ data }) {
       </div>
       <div className="commentSection">
         <h1>comments</h1>
-        <form
+        <CommentCount config={disqusConfig} placeholder="0" /> comments
+        <Disqus
+          config={disqusConfig}
+       />
+        {/* <form
           name="comment-form"
           method="post"
           data-netlify="true"
@@ -36,12 +47,12 @@ export default function BlogPost({ data }) {
             <div className="commentSectionSendButton">
               <button type="submit">Send</button>
             </div>
-            {/* // Add name input
+            // Add name input
             // Add comment input
             // I also added a checkbox for gdpr consent
             // Can be omitted, but you may need to adapt other things later
-            // Workaround:  just add a hidden input that is always true ;) */}
-        </form>
+            // Workaround:  just add a hidden input that is always true ;)
+        </form> */}
       </div>
     </div>
   )
@@ -61,6 +72,9 @@ export const query = graphql`
             }
           }
         }
+      }
+      fields {
+        slug
       }
     }
   }

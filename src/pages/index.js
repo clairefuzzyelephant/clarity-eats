@@ -57,7 +57,7 @@ export default function Home(
         for (let j = 0; j < blog.posts.length; j++) {
           console.log(results[i].title)
           console.log(blog.posts[j].frontmatter.title)
-          if (results[i].title == blog.posts[j].frontmatter.title) {
+          if (results[i].title === blog.posts[j].frontmatter.title) {
             console.log(blog.posts[j].frontmatter.featuredImage.childImageSharp.fluid);
             imgs[results[i].title] = blog.posts[j].frontmatter.featuredImage.childImageSharp.fluid;
           }
