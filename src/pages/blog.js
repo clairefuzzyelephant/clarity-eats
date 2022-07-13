@@ -30,13 +30,11 @@ export default function Blog() {
         }
     `)
     const { posts } = data.blog;
-    console.log(posts);
     let postArray = []
     for (let i = 0; i < posts.length; i++) {
         postArray.push([posts[i].fields.slug, posts[i].frontmatter.featuredImage.childImageSharp.fluid.src, posts[i].frontmatter.title, posts[i].frontmatter.date, posts[i].excerpt])
     }
     postArray.sort(function(a, b) {
-        console.log(a[3])
         return new Date(b[3]) - new Date(a[3]);
     })
     return (

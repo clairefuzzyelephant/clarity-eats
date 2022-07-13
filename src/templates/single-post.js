@@ -8,9 +8,11 @@ export default function BlogPost({ data }) {
 
   let disqusConfig = {
     url: 'https://clarity-eats.netlify.app' + post.fields.slug, 
-    identifier: post.id, 
     title: post.frontmatter.title,
+    identifier: post.id
   };
+
+  console.log(disqusConfig);
 
   return (
     <div className="singlePostViewSiteContainer">

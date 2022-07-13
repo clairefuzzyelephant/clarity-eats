@@ -54,14 +54,20 @@ html {
 
 .searchBar {
     display: flex;
-    width: 150px;
-    margin-left: 75px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    margin-left: 55px;
+    background-color: transparent;
+    
 }
 
 .searchBar input {
     font-family: 'Nunito Sans', sans-serif;
     padding: 1px;
+    width: 150px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: none;
+    padding-inline: 10px;
+    border: 1px solid rgba(27, 17, 2, 0.5);
 }
 
 .clearButton {
