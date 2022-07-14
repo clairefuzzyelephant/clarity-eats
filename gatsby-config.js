@@ -77,14 +77,14 @@ module.exports = {
             store: true,
           },
           `gatsby-plugin-nodejs`,
-          {
-            resolve: `gatsby-plugin-disqus`,
-            options: {
-                shortname: `clarity-eats`
-            }
-          },
         ],
       },
+    },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+          shortname: `clarity-eats`
+      }
     },
   ],
 }

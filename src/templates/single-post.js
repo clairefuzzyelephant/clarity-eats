@@ -25,36 +25,10 @@ export default function BlogPost({ data }) {
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
       <div className="commentSection">
-        <h1>comments</h1>
-        <CommentCount config={disqusConfig} placeholder="0" /> comments
+        <h1>share your thoughts!</h1>
         <Disqus
           config={disqusConfig}
        />
-        {/* <form
-          name="comment-form"
-          method="post"
-          data-netlify="true"
-        >
-            <input type="hidden" name="form-name" value="comment-form" />
-            <input type="hidden" name="id" value={data.markdownRemark.id} />
-            <div className="commentSectionName">
-              <input type="text" name="name" placeholder="name" />
-            </div>
-            <div className="commentSectionName">
-              <input type="text" name="email" placeholder="email address" />
-            </div>
-            <div className="commentSectionComment">
-              <textarea type="text" name="comment" placeholder="comments"/>
-            </div>
-            <div className="commentSectionSendButton">
-              <button type="submit">Send</button>
-            </div>
-            // Add name input
-            // Add comment input
-            // I also added a checkbox for gdpr consent
-            // Can be omitted, but you may need to adapt other things later
-            // Workaround:  just add a hidden input that is always true ;)
-        </form> */}
       </div>
     </div>
   )
