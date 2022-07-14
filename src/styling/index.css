@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Share+Tech+Mono&display=swap');
 html {
     background-color: rgb(245, 245, 238);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left:0;
 }
 
 .siteContainer {
@@ -160,4 +165,194 @@ html {
 .item-search p {
     margin-left: 12px;
     font-size: 12px;
+}
+
+@media (max-width: 1000px) {
+    .siteContainer {
+        top: 0;
+        left: 0;
+        position: absolute;
+        font-family: 'Nunito Sans', sans-serif;
+        width: 100vw;
+        height: fit-content;
+        min-height: 100vh;
+        background-color: rgb(245, 245, 238);
+        color: rgb(27, 17, 2);
+        display: block;
+    }
+    .singlePostViewSiteContainer {
+        top: 0;
+        left: 0;
+        position: absolute;
+        font-family: 'Nunito Sans', sans-serif;
+        width: 100vw;
+        height: fit-content;
+        min-height: 100vh;
+        background-color: rgb(245, 245, 238);
+        color: rgb(27, 17, 2);
+    }
+
+    
+
+    .leftSidebar {
+        min-width: 100vw;
+        height: fit-content;
+        top: 0;
+        left: 0;
+        padding-top: 50px;
+        text-align: center;
+        margin-left: 0px; 
+        margin-top: 120px;  
+    }
+
+    .siteTitle {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 3em;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .leftSidebar p {
+        font-size: 1.25em;
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .leftSidebar img {
+        position: absolute;
+        top: 0;
+        left: 25vw;
+        width: 50vw;
+        height: 5%;
+        object-fit: scale-down;
+    }
+
+    .searchBar {
+        display: block;
+        min-width: 100vw;
+        background-color: transparent; 
+        margin-left: 0px;   
+    }
+
+    .searchBar input {
+        font-family: 'Nunito Sans', sans-serif;
+        padding: 1px;
+        width: 70vw;
+        margin-left: 0px;
+        height: 30px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        background-color: none;
+        padding-inline: 10px;
+        border: 1px solid rgba(27, 17, 2, 0.5);
+        font-size: 16px;
+    }
+
+    .clearButton {
+        font-size: 16px;
+        padding-top: 8px;
+        margin-left: 0;
+    }
+
+    .clearButton:hover {
+        cursor: pointer;
+    }
+
+    .postContainer {
+        position: relative;
+        margin-top: 50px;
+        width: 100vw;
+        text-align: left;
+    }
+
+    .postContainer img {
+        border-radius: 10px;
+    }
+
+    .singlePostContainer {
+        margin-top: 50px;
+        width: 75vw;
+        margin-left: calc(12.5vw - 40px);
+        text-align: left;
+        background-color: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.3);
+        margin-bottom: 40px;
+    }
+
+    .singlePostContainer p {
+        font-size: 1.1em;
+    }
+
+    .postTitle {
+        text-decoration: none;
+        color: rgb(27, 17, 2);
+        font-size: 1.5em;
+        margin-top: 20px;
+        /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); */
+    }
+
+    .postBox {
+        width: 80vw;
+        margin-left: calc(10vw - 20px);
+        margin-bottom: 50px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .post {
+        text-decoration: none;
+        color: rgb(27, 17, 2);
+        font-size: 14px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+    }
+
+    .post img {
+        max-width: 100%;
+    }
+
+    .post small {
+        font-size: 1em;
+    }
+
+    .post p {
+        font-size: 1.25em;
+    }
+
+    .item-search {
+        text-decoration: none;
+        color: rgb(27, 17, 2);
+        margin-bottom: 50px;
+        display: block;
+        width: 80vw;
+        margin-left: 10vw;
+        margin-bottom: 50px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .item-search img {
+        width: 100%;
+        left: 0;
+        /* margin-top: 30px; */
+    }
+
+    .item-search-text {
+        width: 100%;
+    }
+
+    .item-search h4 {
+        font-size: 1.25em;
+    }
+
+    .item-search p {
+        font-size: 1em;
+    }
 }
