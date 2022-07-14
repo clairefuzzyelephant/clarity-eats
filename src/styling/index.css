@@ -140,6 +140,7 @@ html {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .item-search img {
@@ -157,6 +158,6 @@ html {
 }
 
 .item-search p {
-    margin-left: 20px;
+    margin-left: 12px;
     font-size: 12px;
 }
