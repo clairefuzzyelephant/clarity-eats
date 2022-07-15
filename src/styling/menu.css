@@ -4,8 +4,10 @@
     padding: 20px;
 }
 
+
 .menuOptions {
     display: grid;
+    align-items: center;
     width: 70%;
     grid-template-columns: 1fr 2fr;
     font-size: 16px;
@@ -16,26 +18,29 @@
 }
 
 .menuLocationSelect{
-    width: 100%;
+    width: 80%;
     background-color: none;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
     border-radius: 10px;
 }
-.menuLocationSelect__control .menuLocationSelect__control--is-focused {
+/* .menuLocationSelect__control .menuLocationSelect__control--is-focused {
     border: none;
     box-shadow: none;
+    background-color: transparent;
 }
 
 .menuLocationSelect__control .menuLocationSelect__control--is-focused:hover {
     border: none;
     box-shadow: none;
+    background-color: transparent;
 }
 .menuLocationSelect__control {
     background-color: transparent;
     border: none;
-    margin-top: -8px;
     box-shadow: none;
+    border-color: transparent;
+    border-width: 0px;
 }
 
 .menuLocationSelect__control:hover {
@@ -82,8 +87,10 @@
 
 .menuLocationSelect__option {
     background-color: rgb(245, 245, 238);
+    color:rgb(27, 17, 2);
 }
 
 .menuLocationSelect__option .menuLocationSelect__option--is-selected {
     background-color: rgb(208, 188, 149);
-}
+    color:rgb(208, 188, 149);
+} */
