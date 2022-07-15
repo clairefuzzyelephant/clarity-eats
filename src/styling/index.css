@@ -2,25 +2,36 @@
 html {
     background-color: rgb(245, 245, 238);
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     position: absolute;
     top: 0;
     left:0;
 }
 
 .siteContainer {
-    top: 0;
-    left: 0;
-    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+    /* position: absolute; */
     font-family: 'Nunito Sans', sans-serif;
     width: 100vw;
     height: fit-content;
-    min-height: 100vh;
     background-color: rgb(245, 245, 238);
     color: rgb(27, 17, 2);
     display: flex;
     justify-content: space-around;
-    padding-bottom: 50px;
+}
+
+.footer {
+    margin-left: 40vw;
+    height: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 20vw;
+    background-color: rgb(221, 203, 167);
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .singlePostViewSiteContainer {

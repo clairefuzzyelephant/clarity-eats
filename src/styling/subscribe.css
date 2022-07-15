@@ -1,0 +1,30 @@
+.subscribeForm {
+    font-size: 12px;
+    background-color: rgb(233, 220, 194);
+    border-radius: 10px;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.subscribeForm input {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 1px;
+    width: 150px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: none;
+    padding-inline: 10px;
+    border: 1px solid rgba(27, 17, 2, 0.5);
+}
+
+.subscribeForm p {
+    font-size: 16px;
+}
+
+.subscribeButton {
+    margin-top: 5px;
+}
+
+.subscribeButton:hover {
+    cursor: pointer;
+}

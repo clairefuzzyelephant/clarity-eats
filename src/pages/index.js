@@ -4,6 +4,8 @@ import "../styling/index.css";
 
 import Blog from "./blog";
 import LeftSideBar from "../templates/left-sidebar.js";
+import Subscribe from "../templates/Subscribe.js";
+import Menu from "../templates/Menu.js";
 
 export default function Home(
   {data: {
@@ -14,7 +16,7 @@ export default function Home(
     ,) {
 
   const [results, setResults] = useState([]);
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState("");
 
   const getSearchResults = (query) => {
     var index = window.__FLEXSEARCH__.en.index
@@ -41,12 +43,8 @@ export default function Home(
     let res;
     if (query.length > 2) {
       res = getSearchResults(query)
-      console.log(res);
       setResults(res);
       setSearchQuery(query);
-    } else {
-      setResults([]);
-      setSearchQuery([]);
     }
   }
 
@@ -55,53 +53,70 @@ export default function Home(
       let imgs = {};
       for (let i = 0; i < results.length; i++) {
         for (let j = 0; j < blog.posts.length; j++) {
-          console.log(results[i].title)
-          console.log(blog.posts[j].frontmatter.title)
           if (results[i].title === blog.posts[j].frontmatter.title) {
-            console.log(blog.posts[j].frontmatter.featuredImage.childImageSharp.fluid);
             imgs[results[i].title] = blog.posts[j].frontmatter.featuredImage.childImageSharp.fluid;
           }
         }
       }
-      return results.map((page, i) => (
-        <div key={i}>
-          <Link className="item-search" to={page.url}>
-            <div className="item-search-pic">
-              <img alt="" src={imgs[page.title].src} />
-            </div>
-            {/* <Img src={imgs[page.title]} alt="" /> */}
-            <div className="item-search-text">
-              <h4>{page.title}</h4>
-              <p>{page.body.slice(0, 140) + "..."}</p>
-            </div>
-          </Link>
-        </div>
-      ))
+      return (
+      <>
+      <Menu searchFunction={search} clearSearch={clearSearch}/>
+      {results.map((page, i) => (
+          
+          <div key={i}>
+            <Link className="item-search" to={page.url}>
+              <div className="item-search-pic">
+                <img alt="" src={imgs[page.title].src} />
+              </div>
+              <div className="item-search-text">
+                <h4>{page.title}</h4>
+                <p>{page.body.slice(0, 140) + "..."}</p>
+              </div>
+            </Link>
+          </div>
+        
+      ))}
+      </>);
     } else if (searchQuery.length > 2) {
-      return 'No results for ' + searchQuery
+      return (
+        <div>
+          <Menu searchFunction={search} clearSearch={clearSearch}/>
+          {"No results for " + searchQuery}
+        </div>
+      );
     } else if (
       results.length === 0 &&
       searchQuery.length > 0
     ) {
-      return 'Please insert at least 3 characters'
+      return (
+        <div>
+          <Menu searchFunction={search} clearSearch={clearSearch}/>
+          {"please enter at least 3 characters."}
+        </div>
+      );
     } else {
-      return null
+      return null;
     }
   }
 
   function clearSearch() {
-    console.log("clearing");
     setSearchQuery('');
     setResults([]);
   }
 
 
   return (
-    <div className="siteContainer">
-      <LeftSideBar site={site} image={image} searchFunction={search} clearSearch={clearSearch} />
-      <div className="postContainer">
-        {results.length ? <ResultList /> : <Blog />}
+    <div>
+      <div className="siteContainer">
+        <LeftSideBar site={site} image={image} />
+        <div className="postContainer">
+          {searchQuery.length > 0 ? <ResultList /> : <Blog searchFunction={search} clearSearch={clearSearch}/>}
+        </div>
       </div>
+      {/* <div className="footer">
+        <p>Subscribe for email updates!</p>
+        <Subscribe />
+      </div> */}
     </div>
   )
 }

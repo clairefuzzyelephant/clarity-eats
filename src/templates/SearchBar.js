@@ -6,17 +6,20 @@ export default function SearchBar({ searchFunction, clearSearch }) {
     const [value, setValue] = useState("");
 
     function updateValue(e) {
-        console.log(e.target.value);
+        setValue(e.target.value);
+    }
+
+    function checkEnter(e) {
         if(e.key === 'Enter') {
-            console.log("searching!")
-            searchFunction(e.target.value);      
+            searchFunction(value); 
         }
+
     }
 
     return (
         <div className="searchBar">
             <div>
-                <input type="text" placeholder="press enter to search..." value={value} onChange={e => setValue(e.target.value)} onKeyDown={e => updateValue(e)} />
+                <input type="text" placeholder="press enter to search..." value={value} onChange={e => updateValue(e)} onKeyDown={e => checkEnter(e)}/>
             </div>
             <div className="clearButton" 
                 onClick={() => {
@@ -27,7 +30,7 @@ export default function SearchBar({ searchFunction, clearSearch }) {
                     clearSearch(); 
                     setValue("");}
                 }>
-                clear
+                cancel
             </div>
         </div>
     );
