@@ -1,3 +1,89 @@
 .menuContainer {
-    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menuOptions {
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 2fr;
+    font-size: 16px;
+}
+
+.menuOptions div:hover {
+    cursor: pointer;
+}
+
+.menuLocationSelect{
+    width: 100%;
+    background-color: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.menuLocationSelect__control .menuLocationSelect__control--is-focused {
+    border: none;
+    box-shadow: none;
+}
+
+.menuLocationSelect__control .menuLocationSelect__control--is-focused:hover {
+    border: none;
+    box-shadow: none;
+}
+.menuLocationSelect__control {
+    background-color: transparent;
+    border: none;
+    margin-top: -8px;
+    box-shadow: none;
+}
+
+.menuLocationSelect__control:hover {
+    border:none;
+}
+
+.menuLocationSelect__placeholder {
+    color: rgb(27, 17, 2);
+}
+.menuLocationSelect__input {
+    color: rgb(27, 17, 2);
+}
+
+.menuLocationSelect__input-container {
+    color: rgb(27, 17, 2);
+}
+
+.menuLocationSelect__indicator-separator {
+    background-color: rgb(233, 220, 194);
+}
+
+.menuLocationSelect__dropdown-indicator {
+    color: rgb(233, 220, 194);
+}
+
+.menuLocationSelect__dropdown-indicator:hover {
+    color: rgb(208, 188, 149);
+}
+
+.menuLocationSelect__menu-list div:hover {
+    background-color: rgb(233, 220, 194);
+}
+
+.menuLocationSelect__menu-list div:active {
+    background-color: rgb(233, 220, 194);
+}
+.menuLocationSelect__option:focus {
+    background-color: rgb(208, 188, 149);
+}
+
+.menuLocationSelect__option::selection {
+    background-color: none;
+}
+
+.menuLocationSelect__option {
+    background-color: rgb(245, 245, 238);
+}
+
+.menuLocationSelect__option .menuLocationSelect__option--is-selected {
+    background-color: rgb(208, 188, 149);
 }

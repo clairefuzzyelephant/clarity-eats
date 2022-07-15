@@ -19,7 +19,7 @@ html {
     background-color: rgb(245, 245, 238);
     color: rgb(27, 17, 2);
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .footer {
@@ -56,7 +56,7 @@ html {
     width: 300px;
     max-width: 30vw;
     height: fit-content;
-    margin-left: 30px;
+    margin-left: 10vw;
     margin-top: 50px;
     text-align: center;
 }
@@ -98,8 +98,9 @@ html {
 
 .postContainer {
     margin-top: 50px;
-    width: 600px;
+    width: 40vw;
     text-align: left;
+    margin-left: 10vw;
 }
 
 .postContainer img {
@@ -108,8 +109,8 @@ html {
 
 .singlePostContainer {
     margin-top: 50px;
-    width: 600px;
-    margin-left: calc(50vw - 340px);
+    width: 700px;
+    margin-left: calc(50vw - 390px);
     text-align: left;
     background-color: white;
     padding: 40px;
@@ -151,8 +152,8 @@ html {
     color: rgb(27, 17, 2);
     margin-bottom: 50px;
     display: flex;
-    justify-content: space-between;
-    width: 600px;
+    justify-content: space-evenly;
+    width: 700px;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -160,13 +161,13 @@ html {
 }
 
 .item-search img {
-    width: 200px;
+    width: 250px;
     left: 0;
     /* margin-top: 30px; */
 }
 
 .item-search-text {
-    width: 350px;
+    width: 400px;
 }
 
 .item-search h4 {
