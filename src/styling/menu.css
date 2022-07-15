@@ -1,15 +1,14 @@
 .menuContainer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
 }
 
 
 .menuOptions {
-    display: grid;
-    align-items: center;
-    width: 70%;
-    grid-template-columns: 1fr 2fr;
+    width: 100%;
+    /* grid-template-columns: 1fr 2fr; */
     font-size: 16px;
 }
 
@@ -18,7 +17,7 @@
 }
 
 .menuLocationSelect{
-    width: 80%;
+    width: 100%;
     background-color: none;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
