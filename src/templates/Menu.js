@@ -5,7 +5,7 @@ import Select, { NonceProvider } from 'react-select';
 import "../styling/menu.css";
 
 export default function Menu({searchFunction, clearSearch}) {
-    const [location, setLocation] = useState(null)
+    const [location, setLocation] = useState('all')
 
     const options = [ //update this
         { value: 'all', label: 'all locations'},
@@ -25,12 +25,15 @@ export default function Menu({searchFunction, clearSearch}) {
         }),
     }
 
-    function filterByLocation(loc) {
+    const filterByLocation = (loc) => {
+        console.log(loc);
         if (loc.value === 'all') {
+            setLocation(loc);
             clearSearch();
             return;
         }
-        setLocation(loc.value);
+        console.log(loc.value);
+        setLocation(loc);
         searchFunction(loc.value);
     }
         
@@ -58,7 +61,7 @@ export default function Menu({searchFunction, clearSearch}) {
                     value={location}
                     placeholder="filter by location"
                     defaultValue={"all locations"}
-                    onChange={filterByLocation}
+                    onChange={e => filterByLocation(e)}
                     options={options}
                 />
                     
