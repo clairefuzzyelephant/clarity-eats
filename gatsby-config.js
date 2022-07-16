@@ -14,6 +14,7 @@ module.exports = {
     description: 'a food-centered travel blog. devour at your own risk!'
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

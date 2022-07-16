@@ -7,6 +7,7 @@ import LeftSideBar from "../templates/left-sidebar.js";
 import Subscribe from "../templates/Subscribe.js";
 import Menu from "../templates/Menu.js";
 import SearchResults from "../templates/SearchResults";
+import { Helmet } from "react-helmet";
 
 export default function Home(
   {data: {
@@ -53,6 +54,10 @@ export default function Home(
 
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>clarity eats</title>
+      </Helmet>
       <div className="siteContainer">
         <LeftSideBar site={site} image={image} />
         <div className="postContainer">
@@ -66,6 +71,7 @@ export default function Home(
         <p>Subscribe for email updates!</p>
         <Subscribe />
       </div> */}
+      
     </div>
   )
 }
