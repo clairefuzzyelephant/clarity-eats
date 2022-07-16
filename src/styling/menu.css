@@ -77,11 +77,12 @@
     }
     
     .menuLocationSelect{
-        width: 80vw;
-        margin-left: 5vw;
+        width: 40vw;
+        height: 40px;
+        margin-left: 50vw;
         background-color: none;
         font-family: 'Nunito Sans', sans-serif;
-        font-size: 16px;
+        font-size: 1.25em;
         border-radius: 10px;
     }
 

@@ -296,7 +296,7 @@ html {
         margin-bottom: 50px;
         display: block;
         width: 80vw;
-        margin-left: 5vw;
+        margin-left: calc(10vw - 20px);
         margin-bottom: 50px;
         background-color: white;
         padding: 20px;
