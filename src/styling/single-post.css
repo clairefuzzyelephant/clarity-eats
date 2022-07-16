@@ -22,9 +22,9 @@
 
 .commentSection {
     background-color: white;
-    width: 600px;
+    width: 700px;
     margin-top: 50px;
-    margin-left: calc(50vw - 340px);
+    margin-left: calc(50vw - 390px);
     padding: 10px 40px 40px 40px;
     border-radius: 10px;
     box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.3);
