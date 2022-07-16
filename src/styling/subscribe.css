@@ -28,3 +28,10 @@
 .subscribeButton:hover {
     cursor: pointer;
 }
+
+@media (max-width: 1000px) {
+    .subscribeForm {
+        display: none;
+        max-height: 0px;
+    }
+}

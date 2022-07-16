@@ -4,7 +4,7 @@ import Menu from "../templates/Menu.js";
 
 import "../styling/index.css";
 
-export default function Blog( { searchFunction, clearSearch } ) {
+export default function Blog() {
     const data = useStaticQuery(graphql `
         query {
             blog: allMarkdownRemark {
@@ -39,7 +39,6 @@ export default function Blog( { searchFunction, clearSearch } ) {
     })
     return (
         <div>
-            <Menu searchFunction={searchFunction} clearSearch={clearSearch} />
             {postArray.map(([slug, src, title, date, excerpt]) => (
                 <div className="postBox">
                     <Link className="post" to={slug}>

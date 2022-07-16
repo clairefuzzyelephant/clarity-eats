@@ -15,7 +15,7 @@ export default function Subscribe() {
         let res = await addToMailchimp(email);
         console.log(res);
         if (res.result === "success") {
-            setSubscribeButtonText("subscribed!");
+            setSubscribeButtonText("thanks for subscribing!");
             setEmail("");
         } else {
             setSubscribeButtonText("error :(... try again?");

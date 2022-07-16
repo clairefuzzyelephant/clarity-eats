@@ -6,6 +6,7 @@ import Blog from "./blog";
 import LeftSideBar from "../templates/left-sidebar.js";
 import Subscribe from "../templates/Subscribe.js";
 import Menu from "../templates/Menu.js";
+import SearchResults from "../templates/SearchResults";
 
 export default function Home(
   {data: {
@@ -41,76 +42,24 @@ export default function Home(
 
   function search(query) {
     let res;
-    if (query.length > 2) {
-      res = getSearchResults(query)
-      setResults(res);
-      setSearchQuery(query);
+    res = getSearchResults(query)
+    setResults(res);
+    setSearchQuery(query);
+  }
+    function clearSearch() {
+      setSearchQuery('');
+      setResults([]);
     }
-  }
-
-  const ResultList = () => {
-    if (results.length > 0) {
-      let imgs = {};
-      for (let i = 0; i < results.length; i++) {
-        for (let j = 0; j < blog.posts.length; j++) {
-          if (results[i].title === blog.posts[j].frontmatter.title) {
-            imgs[results[i].title] = blog.posts[j].frontmatter.featuredImage.childImageSharp.fluid;
-          }
-        }
-      }
-      return (
-      <>
-      <Menu searchFunction={search} clearSearch={clearSearch}/>
-      {results.map((page, i) => (
-          
-          <div key={i}>
-            <Link className="item-search" to={page.url}>
-              <div className="item-search-pic">
-                <img alt="" src={imgs[page.title].src} />
-              </div>
-              <div className="item-search-text">
-                <h4>{page.title}</h4>
-                <p>{page.body.slice(0, 140) + "..."}</p>
-              </div>
-            </Link>
-          </div>
-        
-      ))}
-      </>);
-    } else if (searchQuery.length > 2) {
-      return (
-        <div>
-          <Menu searchFunction={search} clearSearch={clearSearch}/>
-          {"No results for " + searchQuery}
-        </div>
-      );
-    } else if (
-      results.length === 0 &&
-      searchQuery.length > 0
-    ) {
-      return (
-        <div>
-          <Menu searchFunction={search} clearSearch={clearSearch}/>
-          {"please enter at least 3 characters."}
-        </div>
-      );
-    } else {
-      return null;
-    }
-  }
-
-  function clearSearch() {
-    setSearchQuery('');
-    setResults([]);
-  }
-
 
   return (
     <div>
       <div className="siteContainer">
         <LeftSideBar site={site} image={image} />
         <div className="postContainer">
-          {searchQuery.length > 0 ? <ResultList /> : <Blog searchFunction={search} clearSearch={clearSearch}/>}
+          <Menu searchFunction={search} clearSearch={clearSearch}/>
+          {searchQuery.length > 0 ? 
+            <SearchResults results={results} posts={blog.posts} searchQuery={searchQuery} /> 
+            : <Blog />}
         </div>
       </div>
       {/* <div className="footer">
