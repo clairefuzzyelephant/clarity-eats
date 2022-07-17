@@ -60,6 +60,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 20px;
+        margin-bottom: 10px;
         width: 90vw;
         margin-top: 0px;
         padding-top: 0px;
@@ -77,12 +78,12 @@
     }
     
     .menuLocationSelect{
-        width: 40vw;
+        width: 200px;
         height: 40px;
-        margin-left: 50vw;
+        margin-left: calc(100vw - 260px);
         background-color: none;
         font-family: 'Nunito Sans', sans-serif;
-        font-size: 1.25em;
+        font-size: 1em;
         border-radius: 10px;
     }
 

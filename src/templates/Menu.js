@@ -17,6 +17,7 @@ export default function Menu({searchFunction, clearSearch}) {
     const customStyles = {
         control: (provided, state) => ({
             ...provided,
+            width: 200,
             borderWidth: 0,
             boxShadow: 0,
             color: '#1B1102',
