@@ -5,7 +5,7 @@
     height: 100px;
     margin-left: 0px;
     padding-left: 0px;
-    padding-top: 25px;
+    padding-top: 0px;
     padding-bottom: 25px;
     width: 100vw;
     /* background-color: red; */
@@ -58,6 +58,7 @@
         left: 0px;
         bottom: 0px;
         height: 150px;
+        padding-top: 0px;
         /* margin-left: 0px;
         padding-left: 0px;
         padding-top: 25px;

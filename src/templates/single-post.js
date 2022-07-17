@@ -2,6 +2,7 @@ import React from "react";
 import { graphql, Link } from "gatsby";
 import "../styling/single-post.css";
 import { Disqus } from 'gatsby-plugin-disqus';
+import Footer from "./Footer";
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark
@@ -30,6 +31,7 @@ export default function BlogPost({ data }) {
           config={disqusConfig}
        />
       </div>
+      <Footer />
     </div>
   )
 }
