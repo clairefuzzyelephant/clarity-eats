@@ -1,0 +1,115 @@
+.footer {
+    position:static;
+    /* left: 0px;
+    bottom: 0px; */
+    height: 100px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100vw;
+    /* background-color: red; */
+    /* background-color: rgb(221, 203, 167); */
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.webFooter {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+    color: rgb(27, 17, 2);
+}
+
+.webFooter a:visited {
+    text-decoration: none;
+    color: #CCB995;
+    
+}
+
+.webFooter a:active {
+    text-decoration: none;
+    color: #CCB995;
+}
+
+.webFooter a:hover {
+    text-decoration: none;
+    color: #CCB995;
+}
+
+.webFooter a:link {
+    text-decoration: none;
+}
+
+.mobileFooter {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .webFooter {
+        display: none;
+    }
+
+    .footer {
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+        height: 150px;
+        /* margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: 100vw; */
+        /* background-color: red; */
+        /* background-color: rgb(221, 203, 167); */
+        border-radius: 10px;
+        text-align: center;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 1em;
+    }
+
+    .mobileFooter {
+        display: block;
+        position: relative;
+        width: 100vw;
+        color: rgb(27, 17, 2);
+    }
+
+    .mobileFooter input {
+        font-family: 'Nunito Sans', sans-serif;
+        padding: 1px;
+        width: 150px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        background-color: none;
+        padding-inline: 10px;
+        border: 1px solid rgba(27, 17, 2, 0.5);
+    }
+
+    .mobileFooter .subscribeButton {
+        color: #CCB995;
+    }
+
+    .mobileFooter a:visited {
+        text-decoration: none;
+        color: #CCB995;
+        
+    }
+    
+    .mobileFooter a:active {
+        text-decoration: none;
+        color: #CCB995;
+    }
+    
+    .mobileFooter a:hover {
+        text-decoration: none;
+        color: #CCB995;
+    }
+    
+    .mobileFooter a:link {
+        text-decoration: none;
+    }
+}
+

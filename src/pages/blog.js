@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql, useStaticQuery, Link } from "gatsby"
-import Menu from "../templates/Menu.js";
 
 import "../styling/index.css";
 

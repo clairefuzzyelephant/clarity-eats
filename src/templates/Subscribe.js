@@ -22,8 +22,7 @@ export default function Subscribe() {
         }
     }
     return (
-        <div className="subscribeForm">
-            <p>subscribe for email updates!</p>
+        <div>
             {/* <form onSubmit={async e => await signUpNewsletter(e)}> */}
                 <input type="text" placeholder="email address" value={email} onChange={e => setEmail(e.target.value)}/>
                 <div 

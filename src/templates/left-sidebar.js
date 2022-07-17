@@ -1,7 +1,6 @@
 import React from "react";
 import "../styling/index.css";
 
-import SearchBar from "./SearchBar.js";
 import Subscribe from "./Subscribe.js";
 
 export default function LeftSideBar({ site, image }) {
@@ -11,7 +10,10 @@ export default function LeftSideBar({ site, image }) {
     <div className="leftSidebar">
         <div className="siteTitle">{title}</div>
         <p>{description}</p>
-        <Subscribe />
+        <div className="subscribeForm">
+          <p>subscribe for email updates!</p>
+          <Subscribe />
+        </div>
         <img alt="Running totoro" src={image.publicURL}/>
     </div>
   )

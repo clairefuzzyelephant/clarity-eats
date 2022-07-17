@@ -1,10 +1,10 @@
 import React, {useState} from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import "../styling/index.css";
 
 import Blog from "./blog";
 import LeftSideBar from "../templates/left-sidebar.js";
-import Subscribe from "../templates/Subscribe.js";
+import Footer from "../templates/Footer.js";
 import Menu from "../templates/Menu.js";
 import SearchResults from "../templates/SearchResults";
 import { Helmet } from "react-helmet";
@@ -59,19 +59,17 @@ export default function Home(
         <title>clarity eats</title>
       </Helmet>
       <div className="siteContainer">
-        <LeftSideBar site={site} image={image} />
-        <div className="postContainer">
-          <Menu searchFunction={search} clearSearch={clearSearch}/>
-          {searchQuery.length > 0 ? 
-            <SearchResults results={results} posts={blog.posts} searchQuery={searchQuery} /> 
-            : <Blog />}
+        <div className="siteMainContent">
+          <LeftSideBar site={site} image={image} />
+          <div className="postContainer">
+            <Menu searchFunction={search} clearSearch={clearSearch}/>
+            {searchQuery.length > 0 ? 
+              <SearchResults results={results} posts={blog.posts} searchQuery={searchQuery} /> 
+              : <Blog />}
+          </div>
         </div>
+        <Footer />
       </div>
-      {/* <div className="footer">
-        <p>Subscribe for email updates!</p>
-        <Subscribe />
-      </div> */}
-      
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SearchBar from "./SearchBar.js";
-import Select, { NonceProvider } from 'react-select';
+import Select from 'react-select';
 
 import "../styling/menu.css";
 

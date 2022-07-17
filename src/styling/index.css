@@ -18,20 +18,12 @@ html {
     height: fit-content;
     background-color: rgb(245, 245, 238);
     color: rgb(27, 17, 2);
-    display: flex;
-    justify-content: flex-start;
+    
 }
 
-.footer {
-    margin-left: 40vw;
-    height: 100px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    width: 20vw;
-    background-color: rgb(221, 203, 167);
-    border-radius: 10px;
-    text-align: center;
-    font-family: 'Nunito Sans', sans-serif;
+.siteMainContent {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .singlePostViewSiteContainer {
@@ -163,6 +155,10 @@ html {
 }
 
 @media (max-width: 1000px) {
+    /* html, body {
+        height: 100%;
+    } */
+
     .siteContainer {
         top: 0;
         left: 0;
@@ -170,11 +166,16 @@ html {
         font-family: 'Nunito Sans', sans-serif;
         width: 100vw;
         height: fit-content;
-        min-height: 100vh;
+        /* min-height: 100%; */
         background-color: rgb(245, 245, 238);
         color: rgb(27, 17, 2);
-        display: block;
+        
     }
+
+    .siteMainContent {
+        display: block;
+    }   
+
     .singlePostViewSiteContainer {
         top: 0;
         left: 0;
