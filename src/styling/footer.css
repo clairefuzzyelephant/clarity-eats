@@ -41,6 +41,7 @@
 
 .webFooter a:link {
     text-decoration: none;
+    color: #CCB995;
 }
 
 .mobileFooter {
@@ -110,6 +111,7 @@
     
     .mobileFooter a:link {
         text-decoration: none;
+        color: #CCB995;
     }
 }
 
