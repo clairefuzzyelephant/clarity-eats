@@ -50,7 +50,7 @@ Afterwards we headed along the Cheonggyecheon stream and ended up at a katsu res
     />
 </div>
 
-The late afternoon and evening was spent in Myeongdong, shopping around and trying various street foods. There was a lady selling tanghulu (candied fruit, or strawberries in this particular case) and my friend and I both bought one each. I've had tanghulu before, but this one was simply *life-changing*. The hardened syrup was just the right amount of crunch to pair with the sweet juiciness of the strawberries that burst in our mouths, and we had to physically restrain ourselves from buying more in fear for our blood sugar levels. I also tried a sotteok sotteok (sausage and rice cake skewer) for the first time. It was great, albeit a little too saucy. 
+The late afternoon and evening was spent in Myeongdong, shopping around and trying various street foods. There was a lady selling tanghulu (candied fruit, or strawberries in this particular case) and my friend and I both bought one each. I've had tanghulu before, but this one was simply *life-changing*. The hardened syrup was just the right amount of crunch to pair with the sweet juiciness of the strawberries that burst in our mouths, and we had to physically restrain ourselves from buying more in fear for our blood sugar levels. I also tried a sotteok sotteok (sausage and rice cake skewer) for the first time (and fell in love). This one was a little too saucy but nonetheless absolutely life-changing. Sausage AND tteokkbokki all in one skewer? Hello?
 
 <div>
     <img src="../images/koreaDay2/IMG_2826.jpg" 
