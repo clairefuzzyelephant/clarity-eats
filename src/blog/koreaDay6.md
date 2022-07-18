@@ -1,5 +1,5 @@
 ---
-title: 「 seoul day 6 」 - noodles and namsan
+title: 「 seoul day 6 」 - noodles and namsan seoul tower
 date: 2022-06-07
 featuredImage: ../images/koreaDay5-6/namsan_view.jpg
 ---
