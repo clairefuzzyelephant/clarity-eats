@@ -84,6 +84,6 @@ After the adrenaline cooldown it was, of course, (yes, again) time for bingsu (a
 
 ☆ 
 
-
+_tags: location/korea, lotte world mall, hankookjib, 1 million dance studio, korean food_
 
 

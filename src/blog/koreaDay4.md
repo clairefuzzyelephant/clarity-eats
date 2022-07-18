@@ -67,3 +67,5 @@ The day ended with street food - 30cm ice cream and tornado potato. (I saw sotte
 </div>
 
 Although day 2 was my favorite day overall, this day was definitely a close second. The first half was slow, but I absolutely loved Hongdae - I could've sat there for hours just munching on street snacks and absorbing the vibes. ☆ 
+
+_tags: location/korea, gyeongui line forest park, gung-dong neighborhood park, gomango, songgane gamjatang, shin mi kyung hongdae dakgalbi, korean food_

@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 import "../styling/index.css";
 
-export default function SearchResults({results, posts, searchQuery}) {
+export default function SearchResults({results, posts, searchQuery, queryLabel}) {
 
   const ResultList = () => {
     if (results.length > 0) {
@@ -36,7 +36,7 @@ export default function SearchResults({results, posts, searchQuery}) {
     } else if (searchQuery.length > 2) {
       return (
         <div className="searchErrorMessage">
-          {"no results for " + searchQuery}
+          {"no results for " + (queryLabel ?? searchQuery)}
         </div>
       );
     } else if (

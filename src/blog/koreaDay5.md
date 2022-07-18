@@ -86,6 +86,7 @@ We ended up going to a cafe after dinner, called Seoul Coffee (서울커피 익�
 
 And that was a wrap for our fifth day in Seoul. ☆ 
 
+_tags: location/korea, egg drop, starfield coex mall, yeonnamdong cat cafe, iksundong farm, seoul coffee, korean food_
 
 
 

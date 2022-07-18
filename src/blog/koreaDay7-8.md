@@ -105,3 +105,4 @@ Then, it was time for me to go. At the airport, I had my final meal in Korea fro
 
 It was dark outside when I finally boarded my flight back to the States. I slept the whole plane ride, and when I woke up halfway across the world, bright sunlight streaming through the plane window, I briefly wondered if I had simply dreamt it all. ☆ 
 
+_tags: location/korea, changdeokgung palace, ikseondong, namdobunsik, donut jungsu, carne asado, gangnam, korean food_

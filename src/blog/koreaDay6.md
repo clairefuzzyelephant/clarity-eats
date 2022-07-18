@@ -53,3 +53,5 @@ Outside, there was a little pavilion, and if you looked back you could see the o
 </div>
 
 During the bus ride back, I could still feel the lasting effects of the melancholiness. I also realized that our trip was ending soon, and my heart was already missing Seoul. ☆ 
+
+_tags: location/korea, itaewon, tom's noodles, namsan seoul tower, korean food_

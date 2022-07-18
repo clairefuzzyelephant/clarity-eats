@@ -53,3 +53,5 @@ Dinner ended up being KBBQ at Cheongpyeong (청평숯불갈비), our first "real
 </div>
 
 Although the first day wasn't extremely eventful, the food had already blown my mind, not just because of how good it was but how cheap it was too. Despite the chaotic morning, this trip to Korea was off to a good start. ☆
+
+_tags: location/korea, lotteria, sanuki noodle factory, kyobo, cheongpyeong charcoal fire ribs, korean food, japanese food_

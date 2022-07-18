@@ -9,9 +9,10 @@ export default function Menu({searchFunction, clearSearch}) {
 
     const options = [ //update this
         { value: 'all', label: 'all locations'},
-        { value: 'seoul', label: 'seoul' },
-        { value: 'vancouver', label: 'vancouver' },
-        { value: 'taipei', label: 'taipei' },
+        { value: 'location/sfba', label: 'sf bay area' },
+        { value: 'location/korea', label: 'korea' },
+        { value: 'location/canada', label: 'canada' },
+        { value: 'location/taiwan', label: 'taiwan' },
       ];
 
     const customStyles = {
@@ -27,15 +28,13 @@ export default function Menu({searchFunction, clearSearch}) {
     }
 
     const filterByLocation = (loc) => {
-        console.log(loc);
         if (loc.value === 'all') {
             setLocation(loc);
             clearSearch();
             return;
         }
-        console.log(loc.value);
         setLocation(loc);
-        searchFunction(loc.value);
+        searchFunction(loc.value, loc.label);
     }
         
 

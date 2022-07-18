@@ -61,6 +61,7 @@ The late afternoon and evening was spent in Myeongdong, shopping around and tryi
 
 Not long after we got back to the hotel, we headed out again for the canonical noraebang, which was the obvious course of action given it was a Friday night. After getting slightly buzzed on convenience store soju, we found a not-too-expensive one in Gangnam and filed in. Honestly, it was pretty chaotic trying to search the catalog (which was almost all in Korean) and between the six of us there we could collectively achieve at most a limited working proficiency in the language (if even that), but since we were all kind of drunk anyways it ended up being a good time, as noraebangs are. ☆ 
 
+_tags: location/korea, gyeongbukgung palace, cheonggyecheon stream, gyeongyang hall, myeongdong, noraebang, korean food_
 
 
 

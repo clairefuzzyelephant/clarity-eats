@@ -19,6 +19,7 @@ export default function Home(
 
   const [results, setResults] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
+  const [searchQueryLabel, setSearchQueryLabel] = useState("");
 
   const getSearchResults = (query) => {
     var index = window.__FLEXSEARCH__.en.index
@@ -41,11 +42,16 @@ export default function Home(
     }
   }
 
-  function search(query) {
+  function search(query, queryLabel=null) {
     let res;
     res = getSearchResults(query)
     setResults(res);
     setSearchQuery(query);
+    if (queryLabel) {
+      setSearchQueryLabel(queryLabel);
+    } else {
+      setSearchQueryLabel(null);
+    }
   }
     function clearSearch() {
       setSearchQuery('');
@@ -64,7 +70,7 @@ export default function Home(
           <div className="postContainer">
             <Menu searchFunction={search} clearSearch={clearSearch}/>
             {searchQuery.length > 0 ? 
-              <SearchResults results={results} posts={blog.posts} searchQuery={searchQuery} /> 
+              <SearchResults results={results} posts={blog.posts} searchQuery={searchQuery} queryLabel={searchQueryLabel} /> 
               : <Blog />}
           </div>
         </div>
