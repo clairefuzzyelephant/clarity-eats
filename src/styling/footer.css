@@ -23,25 +23,10 @@
     color: rgb(27, 17, 2);
 }
 
-.webFooter a:visited {
+.webFooter a {
     text-decoration: none;
-    color: #CCB995;
+    color: #ab9a7a;
     
-}
-
-.webFooter a:active {
-    text-decoration: none;
-    color: #CCB995;
-}
-
-.webFooter a:hover {
-    text-decoration: none;
-    color: #CCB995;
-}
-
-.webFooter a:link {
-    text-decoration: none;
-    color: #CCB995;
 }
 
 .mobileFooter {
@@ -94,25 +79,10 @@
         color: #CCB995;
     }
 
-    .mobileFooter a:visited {
+    .mobileFooter a {
         text-decoration: none;
         color: #CCB995;
         
-    }
-    
-    .mobileFooter a:active {
-        text-decoration: none;
-        color: #CCB995;
-    }
-    
-    .mobileFooter a:hover {
-        text-decoration: none;
-        color: #CCB995;
-    }
-    
-    .mobileFooter a:link {
-        text-decoration: none;
-        color: #CCB995;
     }
 }
 

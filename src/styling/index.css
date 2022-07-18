@@ -154,6 +154,23 @@ html {
     font-size: 14px;
 }
 
+.leftSidebarMenu {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.leftSidebarLink {
+    color: #ab9a7a;
+    text-decoration: none;
+}
+
+.aboutContainer {
+    margin-top: 100px;
+}
+
 @media (max-width: 1000px) {
     /* html, body {
         height: 100%;
