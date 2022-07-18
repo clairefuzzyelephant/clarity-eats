@@ -27,6 +27,6 @@ As for ramen, they allow you to customize the spice level of your ramen, so I ch
 
 The quality has always been consistent the times I've gone, and although the tonkotsu broth is flavorful, it isn't one of those overpoweringly heavy types which I tend to avoid (rip cholesterol...) THe chashu is marinated the right amount, and not too fatty. 
 
-Conclusion: I would definitely recommend Marufuku if you're dropping by SF Japantown, but be prepared for a wait!
+Conclusion: I would definitely recommend Marufuku if you're dropping by SF Japantown, but be prepared for a wait! ☆ 
 
 _tags: location/sfba, marufuku ramen, san francisco japantown_
