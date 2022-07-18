@@ -1,6 +1,6 @@
 ---
 title: 「 seoul day 7 & 8 」 - donuts, ddeokkbokki, and departures
-date: 2022-06-08
+date: 2022-06-09
 featuredImage: ../images/koreaDay7-8/IMG_1113.jpeg
 ---
 On our last full day in Seoul, we decided to check out Changdeokgung Palace, the other famous palace from the Joseon Dynasty. It was much less busy than Gyeongbukgung, but beautiful nonetheless, and much more green. 
@@ -30,7 +30,7 @@ We wanted to see the Secret Garden, which was only viewable to the public via to
     />
 </div>
 
-After the tour, we decided to return to Ikseondong (not Hongdae! surprise!) to explore a little more than we did last time. We found an aesthetic cafe called Donut Jungsu that looked as if it was buried in the middle of a forest. The interior was rustic and made it feel like we were in a little tea house on top of a large mountain or the likes - certainly not in the middle of bustling Seoul!
+After the tour, we decided to return to Ikseondong (not Hongdae! surprise!) to explore a little more than we did last time. We found an aesthetic cafe called Donut Jungsu that looked as if it was buried in the middle of the woods. The interior was rustic and made it feel like we were in a little tea house on top of a large mountain or the likes - certainly not in the middle of bustling Seoul!
 
 <div>
     <img src="../images/koreaDay7-8/cafe_outside.jpeg" 
@@ -48,7 +48,7 @@ When our food came (an assortment of drinks and donuts), the presentation was pr
     />
 </div>
 
-We ate dinner in Ikseondong as well, at a tteokkbokki place called Namdobunsik (남도분식). Up until then I didn't realize that I've never eaten "fresh" tteokkbokki - or rather, I've always had pre-cooked tteokkbokki (that most likely came from a pre-made frozen package). This place served tteokkbokki raw on the portable stoves, and we watched it cook in front of us, much like dakgalbi. The difference in taste was definitely noticeable, with this tteokkbokki being much chewier and had a more even consistency. The spice level was also higher than the most of the packaged ones I've eaten, and although I enjoyed it a lot, I probably downed at least three glasses of water in the span of an hour.
+We ate dinner in Ikseondong as well, at a tteokkbokki place called Namdobunsik (남도분식). Up until then I didn't realize that I've never eaten "fresh" tteokkbokki - or rather, I've always had pre-cooked tteokkbokki (that most likely came from a frozen package). This place served tteokkbokki raw on the portable stoves, and we watched it cook in front of us, much like dakgalbi. The difference in taste was definitely noticeable, with this tteokkbokki being much chewier and having a more even consistency. The spice level was also higher than the most of the packaged ones I've eaten, and although I enjoyed it a lot, I probably downed at least three glasses of water in the span of an hour.
 
 <div>
     <img src="../images/koreaDay7-8/ddeokbokki.jpg" 
@@ -57,7 +57,7 @@ We ate dinner in Ikseondong as well, at a tteokkbokki place called Namdobunsik (
     />
 </div>
 
-The rest of the evening was spent walking around Ikseondong. We played a shooting game with those paper targets, and the lady even gave us two adorable bear plushie keychains for free (we showed up in a group of two guys and two girls and I think she thought we were on a double date). We passed by a dessert cafe called France Ange Dessert with a bunch of unique macaron flavors such as "apple mango" and "fig" and "tiramisu." I chose a peach (experimental) and a matcha (safe option), and both were delicious.
+The rest of the evening was spent walking around Ikseondong. We played a shooting game with those paper targets, and the lady even gave us two adorable bear plushie keychains for free (we showed up in a group of two guys and two girls and I think she thought we were on a double date...). We passed by a dessert cafe called France Ange Dessert with a bunch of unique macaron flavors such as "apple mango" and "fig" and "tiramisu." I chose a peach (experimental) and a matcha (safe option), and both were delicious.
 
 <div>
     <img src="../images/koreaDay7-8/IMG_1142.jpg" 
@@ -73,7 +73,7 @@ The rest of the evening was spent walking around Ikseondong. We played a shootin
     />
 </div>
 
-Although it was late, since it was our final night in Seoul, we decided to go back to Hongdae, for - you guessed it - GoMango. Then we just sat there at the head of Gyeongui Line Forest Park, talking and absorbing the vibes of the city we had fell in love with in such a short time. The liveliness, the food, the modern and the traditional mixed in one, we were all going to miss it so much. 
+Although it was late, since it was our final night in Seoul, we decided to go back to Hongdae, for - you guessed it - GoMango. Then we just sat there at the head of Gyeongui Line Forest Park, talking and absorbing the vibes of the city we had fell in love with in such a short time. The liveliness, the food, the modern and the traditional mixed in one - we were all going to miss it so much. 
 
 
 The next morning, we had our final Egg Drop run. 

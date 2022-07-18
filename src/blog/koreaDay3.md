@@ -3,7 +3,7 @@ title: 「 seoul day 3 」 - bibimbap, bingsu, and... basil?
 date: 2022-06-04
 featuredImage: ../images/koreaDay3-4/IMG_0083.jpg
 ---
-Our third day started out with a trip to the Lotte World Mall, one of the largest shopping malls in South Korea. Before long I discovered - get this - a Studio Ghibli store with tons of official merch?!? Literally a dream come true. There was a life-size cat bus inside as well as a large totoro standing in the window, and they had shelves and shelves of coin purses, printed towels, themed jewelry, plushies, you name it.
+Our third day started out with a trip to the Lotte World Mall, one of the largest shopping malls in South Korea. Before long I discovered - get this - a Studio Ghibli store with tons of official merch?!? Literally a dream come true. There was a life-size catbus inside as well as a large totoro standing in the window, and they had shelves and shelves of coin purses, printed towels, themed jewelry, plushies, you name it.
 
 <div>
     <img src="../images/koreaDay3-4/IMG_0063.jpg" 
@@ -20,7 +20,7 @@ Our third day started out with a trip to the Lotte World Mall, one of the larges
 </div>
  <br />
 
- Here's an obligatory pic of a bakery we passed by.
+Pic of an bakery we passed by. (Angelinus probably?)
 
 <div>
     <img src="../images/koreaDay3-4/lotte_bakery.jpg" 
@@ -73,7 +73,7 @@ The evening was spent at the iconic 1 Million Dance Studio near Seongsu Station.
     />
 </div>
 
-After the adrenaline cooldown it was, of course, time for bingsu (at a place nearby called 젤라또투유). (Side note: the ice cream on top looks like matcha but it was NOT, in fact, matcha. My friend and I spent a good 5 minutes trying to figure out what it was before I went over to look at the list of flavors and figured out that it was BASIL. BASIL ICE CREAM. It was not as weird as it sounds, but it was definitely... interesting...)
+After the adrenaline cooldown it was, of course, (yes, again) time for bingsu (at a place nearby called 젤라또투유). (Side note: the ice cream on top looks like matcha but it was NOT, in fact, matcha. My friend and I spent a good 5 minutes trying to figure out what it was before I went over to look at the list of flavors and figured out that it was BASIL. BASIL ICE CREAM. It was not as weird as it sounds, but it was definitely... interesting...)
 
 <div>
     <img src="../images/koreaDay3-4/IMG_0288.jpg" 

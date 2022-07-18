@@ -4,7 +4,7 @@ date: 2022-06-03
 featuredImage: ../images/koreaDay2/IMG_9609.jpg
 ---
 
-Started the day off with Gyeongbukgung Palace - incredibly basic, yes, I know, but obligatory nonetheless. This part of the trip unironically ended up becoming my favorite part of the Korea trip altogether - I quite literally fell in love with the hanbok that the hanbok rental lady picked for me, and walking around the palace in the 90-something-degree-Fahrenheit weather didn't faze me at all. The hanbok rental place we went to was right around the corner from the palace, one of the first things you see when you head out of Gyeongbukgung Station Exit 4, but there are a bunch of them at varying price points near the palace and you can take your pick. The one we went to ended up totaling ~$14 for my full-day hanbok plus hairdo and a wristlet (insanely underpriced if you ask me).
+Started the day off with Gyeongbukgung Palace - incredibly basic, yes, I know, but obligatory tourist destination nonetheless. This part of the trip unironically ended up becoming my favorite part of the Korea trip altogether - I was extremely obsessed with the hanbok that the hanbok rental lady picked for me, and walking around the palace in the 90-something-degree-Fahrenheit weather didn't faze me at all. The hanbok rental place we went to was right around the corner from the palace, one of the first things you see when you head out of Gyeongbukgung Station Exit 4, but there are a bunch of them at varying price points near the palace and you can take your pick. The one we went to ended up totaling ~$14 for my full-day hanbok plus hairdo and a wristlet (insanely underpriced if you ask me).
 
 Note: obviously you don't *have* to rent a hanbok to enter the palace, although I'd highly recommend it for the full tourist-y experience. Also, if you enter wearing a hanbok, the palace waives your entrance fee!
 
@@ -59,7 +59,7 @@ The late afternoon and evening was spent in Myeongdong, shopping around and tryi
     />
 </div>
 
-Not long after we got back to the hotel, we headed out again for the canonical noraebang, which was the obvious course of action given it was a Friday night. After getting slightly buzzed on convenience store soju, we found a not-too-expensive one in Gangnam and filed in. Honestly, it was pretty chaotic trying to search the catalog (which was almost all in Korean) and between the six of us there we could collectively achieve at most a limited working proficiency in the language (if even that), but since we were all kind of drunk anyways it ended up being a good time, as noraebangs do. ☆ 
+Not long after we got back to the hotel, we headed out again for the canonical noraebang, which was the obvious course of action given it was a Friday night. After getting slightly buzzed on convenience store soju, we found a not-too-expensive one in Gangnam and filed in. Honestly, it was pretty chaotic trying to search the catalog (which was almost all in Korean) and between the six of us there we could collectively achieve at most a limited working proficiency in the language (if even that), but since we were all kind of drunk anyways it ended up being a good time, as noraebangs are. ☆ 
 
 
 

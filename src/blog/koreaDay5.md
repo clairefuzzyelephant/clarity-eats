@@ -13,7 +13,7 @@ First of all I can't believe I haven't mentioned Egg Drop yet in this Seoul blog
     />
 </div>
 
-These last few days in Seoul moved a little slower than the first few. On this fifth morning, most of the others wanted to stay in, so the one remaining friend and I headed to Kyobo/HOTTRACKS again, looking for a specific K-pop album to bring back for our mutual friend back home. Mid-search, we came across a ... Twenty-Five Twenty-One OST album!? (If you haven't watched Twenty-Five Twenty-One, it is hands down the best k-drama I've ever seen. Even if you don't like typical k-dramas, I promise to you that Twenty-Five Twenty-One is totally worth it.) So of course, we bought it.
+These last few days in Seoul moved a little slower than the first few. On this fifth morning, most of the others wanted to stay in, so the one remaining friend and I headed to Kyobo/HOTTRACKS again, looking for a specific K-pop album to bring back for our mutual friend back home. Mid-search, we came across a ... Twenty-Five Twenty-One OST album!? (If you haven't watched Twenty-Five Twenty-One, it is hands down the best k-drama I've ever seen. Even if you don't like typical k-dramas, I promise to you that Twenty-Five Twenty-One is extremely, extremely worth it.) So of course, we bought it.
 
 <div>
     <img src="../images/koreaDay5-6/hottracks.jpeg" 
@@ -22,7 +22,7 @@ These last few days in Seoul moved a little slower than the first few. On this f
     />
 </div>
 
-Shortly afterwards we headed to Starfield COEX Mall, which I had somehow never heard of but later found out it was the biggest underground mall in all of Asia! There was a library filled from floor to ceiling - literally - with books. The stores were endless, a mix of Western and Asian name brands spread across swaths and swaths of corridors. If you want to go for a big shopping day in Gangnam, COEX mall is the place to be. 
+Shortly afterwards we headed to Starfield COEX Mall, which I had somehow never heard of but later found out it was the biggest underground mall in all of Asia! There was a library stacked from floor to ceiling with books. The stores were endless, a mix of Western and Asian name brands spread across swaths and swaths of corridors. If you want to go for a big shopping day in Gangnam, COEX mall is the place to be. 
 
 <div>
     <img src="../images/koreaDay5-6/coexmap.jpeg" 
@@ -66,7 +66,7 @@ In the evening, the others finally decided to join us. We ate at Iksundong Farm,
     />
 </div>
 
-Ikseondong as a whole was also just extremely aesthetically pleasing - lantern-lined paths and mini ponds and gardens and quaint cafes. Imagine Etsy, and then imagine that in neighborhood form - that's Ikseondong. 
+Ikseondong as a whole was also just extremely aesthetically pleasing - lantern-lined paths and mini ponds and gardens and quaint cafes. Imagine Etsy, and then imagine that in neighborhood form - that's Ikseondong for you. 
 
 <div>
     <img src="../images/koreaDay5-6/ikseondong.jpeg" 
@@ -75,7 +75,7 @@ Ikseondong as a whole was also just extremely aesthetically pleasing - lantern-l
     />
 </div>
 
-We ended up going to a cafe after dinner, called Seoul Coffee (서울커피 익선본점). I got a hot Vienna Milk Tea, which ended up looking like a cup of coffee with a scoop of whipped cream on top. Extremely aesthetic also, just like the rest of Ikseondong. (Pictured below is also another random cafe that looked like a greenhouse)
+We ended up going to a cafe after dinner, called Seoul Coffee (서울커피 익선본점). I got a hot Vienna Milk Tea, which ended up looking like a cup of coffee with a scoop of whipped cream on top. Extremely aesthetic also, just like the rest of Ikseondong. (Pictured below is also another random cafe that looked like a greenhouse?!)
 
 <div>
     <img src="../images/koreaDay5-6/iksundongcafes.jpeg" 

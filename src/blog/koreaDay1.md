@@ -4,7 +4,7 @@ date: 2022-06-02
 featuredImage: ../images/koreaDay1/IMG_9527_halved.jpg
 ---
 
-After my plane decided to ungraciously dump me in the middle of a new country a whole 1.5 hours before its scheduled arrival time, I was stuck in the Incheon International Airport 3:30 AM with no friends, no South Korean Won, no running trains, and no Korean language skills. Furthermore, there was barely anything open (as expected), and I spent half an hour wandering around looking for an operating Currency Exchange (thank god for the 24hr Woori Bank). After frantically texting my still-awake West Coast Korean-American chingu about how to load money onto my T-Money card, I finally arrived to Seoul Station around 7 AM to meet with a friend who had arrived the day before, and we decided to get breakfast inside the station at a fast-food place called Lotteria (which I am just finding out now... that Lotteria is a Japanese fast-food chain...)
+After my plane decided to ungraciously dump me in the middle of a new country a whole 1.5 hours before its scheduled arrival time, I was stuck in the Incheon International Airport at 3:30 AM with no friends, no South Korean Won, no running trains, and no Korean language skills. Furthermore, there was barely anything open (as expected), and I spent half an hour wandering around looking for an operating Currency Exchange (thank god for the 24hr Woori Bank counter). After frantically texting my still-awake West Coast Korean-American chingu about how to load money onto my T-Money card, I finally arrived to Seoul Station around 7 AM to meet with a friend who had arrived the day before, and we decided to get breakfast inside the station at a fast-food place called Lotteria (which I am just finding out now... that Lotteria is a Japanese fast-food chain...)
 
 <div>
     <img src="../images/koreaDay1/IMG_2797.png" 
@@ -16,7 +16,7 @@ After my plane decided to ungraciously dump me in the middle of a new country a 
 The rice burgers were... INSANE. I got the bulgogi burger and some chicken nuggets as well as some kind of iced latte that just tasted like melted ice cream (in a good way). I'm not kidding when I say that I literally fell in love on the spot. Perhaps it was because I hadn't eaten for 15 hours before that, but I hadn't been back to Asia in a while and had nearly forgotten that Asian fast-food joints are always on a different level compared to the States.
 
 
-Of course we dropped by a convenience store in Myeongdong and bought the iconic strawberry and banana milk bottles that you see in the kdramas. (In my defense... they were cheap...) Eventually we headed to Gangnam where our hotel (Ocloud) was. Obligatory pit stop at the Kakao Friends store:
+Of course we dropped by a convenience store in Myeongdong and bought the iconic strawberry and banana milk bottles that you see in the kdramas. (In my defense... they were cheap...) And eventually we headed to Gangnam where our hotel (Ocloud) was. Obligatory pit stop at the Kakao Friends store:
 
 <div>
     <img src="../images/koreaDay1/IMG_9519.jpg" 
@@ -43,7 +43,7 @@ After lunch everyone was tired (except for me, apparently) and napped in the hot
     />
 </div>
 
-Dinner ended up being KBBQ at Cheongpyeong (청평숯불갈비), our first "real" Korean meal in Korea... at last. It was surprisingly inexpensive considering the quality and the amount of meat that we consumed (probably ended up being less than 15 USD per person?) and the server did all the cooking for us, which was fantastic. Afterwards we spent an hour or two walking up and down the streets of Gangnam absorbing the chaotic and lively city-at-night vibes and munching (licking?) on convenience store ice cream bars.
+Dinner ended up being KBBQ at Cheongpyeong (청평숯불갈비), our first "real" Korean meal in Korea... at last. It was surprisingly inexpensive considering the quality and the amount of meat that we consumed (probably ended up being less than 15 USD per person?) and the server did all the cooking for us, which was convenient. Afterwards we spent an hour or two walking up and down the streets of Gangnam absorbing the chaotic and lively city-at-night vibes and munching (licking?) on convenience store ice cream bars.
 
 <div>
     <img src="../images/koreaDay1/IMG_2800.jpg" 
@@ -52,4 +52,4 @@ Dinner ended up being KBBQ at Cheongpyeong (청평숯불갈비), our first "real
     />
 </div>
 
-Although the first day wasn't extremely eventful, the food had already blown my mind not just because of how good it was but how cheap it was too. Despite the chaotic morning, this trip to Korea was off to a good start. ☆
+Although the first day wasn't extremely eventful, the food had already blown my mind, not just because of how good it was but how cheap it was too. Despite the chaotic morning, this trip to Korea was off to a good start. ☆

@@ -3,7 +3,7 @@ title: 「 seoul day 6 」 - noodles and namsan seoul tower
 date: 2022-06-07
 featuredImage: ../images/koreaDay5-6/namsan_view.jpg
 ---
-On this day we visited the famed Itaewon district. It definitely emanated a distinct vibe compared to the other parts of Seoul we'd been to - indie, edgy, and slightly antique-feeling. Multiple stores we passed by were blasting Gaho's Start Over on the speakers, the theme from Itaewon Class. 
+On this day we visited the famed Itaewon district. It definitely emanated a distinct vibe compared to the other parts of Seoul we'd been to - indie, edgy, and slightly antique-feeling. Multiple stores we passed by were blasting Gaho's Start Over on the speakers, the theme song from Itaewon Class. 
 
 <div>
     <img src="../images/koreaDay5-6/IMG_0723.jpg" 
@@ -21,7 +21,7 @@ But we quickly realized that we had made a dire mistake visiting it in the dayti
     />
 </div>
 
-Since there was nothing much else to do in Itaewon during the day, we decided to go to (surprise) Hongdae to get (surprise) GoMango. It was becoming a religion at this point. Dinner was also in Hongdae, at a kalguksu place called Tom's Noodles (탐스칼국수). I got the spicy beef noodle soup, which was hot and flavorful. The portion sizes were quite large, and I probably was only able to finish 40% of mine before pushing it off to my friends. 
+Since there was nothing much else to do in Itaewon during the day, we decided to go to (surprise) Hongdae to get (surprise) GoMango. It was seriously becoming a religion at this point. Dinner was also in Hongdae, at a kalguksu place called Tom's Noodles (탐스칼국수). I got the spicy beef noodle soup, which was hot and flavorful. The portion sizes were quite large, and I probably was only able to finish 40% of mine before pushing it off to my friends. 
 
 <div>
     <img src="../images/koreaDay5-6/kalguksu.jpeg" 
@@ -30,7 +30,9 @@ Since there was nothing much else to do in Itaewon during the day, we decided to
     />
 </div>
 
-The Namsan Seoul Tower had been on our itinerary for a few days now, but every dinner always ran late and then we were too tired to go anywhere else, but with only one full day left in Seoul, we finally decided to bust our asses over there. After a long metro-then-bus ride, we were halfway up the hill to Namsan Tower. From here we were already able to see some of the city lights, and the beauty was exhilarating. But we pushed onwards, climbing seemingly endless stairs until we reached the tower. Inside, after we bought observation deck tickets, the tour guide brought us into an elevator that zoomed us upwards to the deck in a matter of seconds. Now we were at the second highest point in all of Seoul, we could look down and see the entire city laid out below us. They were playing melancholy (k-drama?) music in the background, and standing up there looking down on the world and how tiny everything seemed - it suddenly made me feel a little sad. Cliche, I know. Perhaps that was the intended effect, given the music choice. (But just look at that!)
+The Namsan Seoul Tower had been on our itinerary for a few days now, but every dinner always ran late and then we were too tired to go anywhere else, but with only one full day left in Seoul, we finally decided to bust our asses over there. After a long metro-then-bus ride, we were halfway up the hill to Namsan Tower. From here we were already able to see some of the city lights below, and the beauty was truly... exhilarating. But we pushed onwards, climbing seemingly endless stairs until we reached the tower. 
+
+Inside, after we bought observation deck tickets, the tour guide brought us into an elevator that zoomed us upwards to the deck in a matter of seconds. Now we were at the second highest point in all of Seoul, we could look down and see the entire city laid out below us. They were playing melancholy (k-drama?) music in the background, and standing up there looking down on the world and how tiny everything seemed - it suddenly made me feel a little sad. Cliche, I know. Perhaps that was the intended effect, given the music choice. (But just look at that!)
 
 <div>
     <img src="../images/koreaDay5-6/namsan_view.jpg" 

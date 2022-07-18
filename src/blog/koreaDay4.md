@@ -12,7 +12,7 @@ After spending three days in pure consumerism, our fourth morning was spent touc
     />
 </div>
 
-For lunch we ate at Songgane Gamjatang in Hongdae, which is famous for its bossam. I remember not being a huge fan of bossam in the past, but this experience definitely changed my mind. It was also particularly invigorating after a long hike, and the food was cheap too (~ 7 per person if I remember correctly, for a whole plate of meat plus soup and whatnot). 
+For lunch we ate at Songgane Gamjatang in Hongdae, which is famous for its bossam. I remember not being a huge fan of bossam in the past, but this experience definitely changed my mind. It was also particularly invigorating after a long hike, and the food was cheap too (8000 KRW per person if I remember correctly, for a whole plate of meat plus soup and whatnot). 
 
 <div>
     <img src="../images/koreaDay3-4/bossam.jpg" 
@@ -21,7 +21,7 @@ For lunch we ate at Songgane Gamjatang in Hongdae, which is famous for its bossa
     />
 </div>
 
-PRO TIP: If you're ever in Hongdae, you HAVE to get GOMANGO. It's this little hole-in-the-wall counter cafe right a couple hundred meters straight outside of Hongik Universtiy Station Exit 3, next to a flower shop. They have fresh mango smoothies with large chunks of juicy mango and let me tell you, there's nothing I've ever had like it. GoMango is AMAZING. We returned to GoMango pretty much every single day after this, even though it was an hour away from our hotel by transit, but it's soooo worth it.
+PRO TIP: If you're ever in Hongdae, you HAVE to get GOMANGO. It's this little hole-in-the-wall counter cafe right a couple hundred meters straight outside of Hongik University Station Exit 3, next to a flower shop. They have fresh mango smoothies with large chunks of juicy mango and let me tell you, there's nothing I've ever had like it. GoMango is AMAZING. We returned to GoMango pretty much every single day after this, even though it was an hour away from our hotel by transit, but it's soooo worth it.
 
 
 <div>
