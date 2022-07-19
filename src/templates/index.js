@@ -3,19 +3,15 @@ import { graphql } from "gatsby"
 import "../styling/index.css";
 
 import Blog from "./blog";
-import LeftSideBar from "../templates/left-sidebar.js";
-import Footer from "../templates/Footer.js";
-import Menu from "../templates/Menu.js";
-import SearchResults from "../templates/SearchResults";
+import LeftSideBar from "./left-sidebar.js";
+import Footer from "./Footer.js";
+import Menu from "./Menu.js";
+import SearchResults from "./SearchResults";
 import { Helmet } from "react-helmet";
 
-export default function Home(
-  {data: {
-        blog,
-        site,
-        image
-    }}
-    ,) {
+export default function Home({data, pageContext}) {
+
+  const {site, image, blog} = data;
 
   const [results, setResults] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
@@ -71,7 +67,7 @@ export default function Home(
             <Menu searchFunction={search} clearSearch={clearSearch}/>
             {searchQuery.length > 0 ? 
               <SearchResults results={results} posts={blog.posts} searchQuery={searchQuery} queryLabel={searchQueryLabel} /> 
-              : <Blog />}
+              : <Blog data={blog.posts} context={pageContext} />}
           </div>
         </div>
         <Footer />
@@ -81,7 +77,7 @@ export default function Home(
 }
 
 export const pageQuery = graphql`
-  query MetadataQuery {
+  query MetadataQuery($skip: Int!, $limit: Int!) {
     site {
       siteMetadata {
         title
@@ -91,13 +87,17 @@ export const pageQuery = graphql`
     image: file(base: {eq: "runningTotoro.gif" }) {
       publicURL
     }
-    blog: allMarkdownRemark {
+    blog: allMarkdownRemark(
+      sort: {fields: [frontmatter___date], order: DESC }
+      limit: $limit
+      skip: $skip
+    ) {
       posts: nodes {
         fields {
           slug
         }
         frontmatter {
-          date(fromNow: true)
+          date(formatString: "LL")
           title
           featuredImage {
             childImageSharp {

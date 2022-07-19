@@ -171,6 +171,29 @@ html {
     margin-top: 100px;
 }
 
+.pageNumMenu {
+    display: flex;
+    justify-content: center;
+}
+
+.pageNumMenu div {
+    margin: 5px;
+}
+
+.pageNum {
+    text-decoration: none;
+}
+
+.currentPageLink {
+    text-decoration: none;
+    color: rgb(27, 17, 2);
+}
+
+.otherPageLink {
+    text-decoration: none;
+    color: #CCB995;
+}
+
 @media (max-width: 1000px) {
     /* html, body {
         height: 100%;
