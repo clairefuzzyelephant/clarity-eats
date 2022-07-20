@@ -14,7 +14,7 @@ They have small cold appetizers such as oysters, ankimo, and beef tataki, as wel
     />
 </div>
 
-I chose the o-toro, tamago, salmon belly, and unagi. They were all delicious, and my favorite was probably the o-toro. 
+I chose the o-toro (fatty tuna), tamago (egg), salmon belly, and unagi (eel). They were all delicious, and my favorite was probably the o-toro - it was flavorful and rich and I could taste the quality with every bite (it was the most expensive one). My least favorite out of the four (which is not saying much because I liked all of them) was the salmon belly, but that was more due to personal preferences. 
 
 We also ordered agedashi tofu and chicken karaage as sides, which were both tasty as well. The chicken karaage was more lightly breaded than most karaage's I've had, and smaller (almost bite-sized), which I liked. 
 
