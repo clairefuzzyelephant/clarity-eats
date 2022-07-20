@@ -35,3 +35,5 @@ We also ordered agedashi tofu and chicken karaage as sides, which were both tast
 </div>
 
 The meal was on the pricier side (each pair of nigiri averaging about $9), but more or less what you'd expect from a high-quality Japanese restaurant that focuses on fresh sashimi and nigiri. I enjoyed it a lot, and would definitely come back for a special occasion meal. ☆ 
+
+_tags: location/sfba, yuyake dan dan izakaya, stoneridge mall_
