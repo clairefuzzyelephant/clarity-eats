@@ -12,9 +12,9 @@ Escaping the United States on the Fourth of July like true Americans, we arrived
     />
 </div>
 
-We were starving at this point so we decided to make a stop in Richmond for a late breakfast. We found a Chinese food court in a building called President Plaza, with an assortment of counters that sold everything from noodles to baozi to youtiao and fantuan. 
+We were all starving at this point, so we decided to make a stop in Richmond for a late breakfast. We found a Chinese food court in a building called President Plaza, with an assortment of counters that sold everything from noodles to baozi to youtiao and fantuan. 
 
-My friend and I got a Taiwanese fantuan (rice roll) + danbing (egg crepe) + soymilk combo from a place called Yung Ho Soy Drink to share. I will warn you that it cost extra for the soymilk to be cold instead of hot, and they also charge for extra utensils. Money is hard to make these days, I suppose...
+My friend and I got a Taiwanese fantuan (rice roll) + danbing (egg crepe) + soymilk combo from a place called Yung Ho Soy Drink to share. I _will_ warn you that it cost extra for the soymilk to be cold instead of hot, and they also charge for extra utensils. Money is hard to make these days, I suppose... :sadface:
 
 It cost CAD 13.00 total, and was just enough for the two of us with smaller appetites:
 
@@ -27,7 +27,7 @@ It cost CAD 13.00 total, and was just enough for the two of us with smaller appe
 
 Afterwards we headed to Downtown Vancouver to drop off our stuff in our Airbnb and explore the city.
 
-We lived close to Robson Street, which is a nice location - full of stores and restaurants and cafes, and the busy area extends for multiple blocks. I was surprised to find a Machi Machi on Robson Street - I had previously assumed it only existed in NYC. Their boba is always solid, although they stuff in a little too many pearls for my own personal preference.
+We lived close to Robson Street, which is a nice location - full of stores and restaurants and cafes, and the busy area extends for multiple blocks. I was surprised to find a Machi Machi on Robson Street - I had previously assumed it only existed in NYC. Their boba is always solid, although they stuff in a little too many pearls for my own personal preference (I could not finish them).
 
 <div>
     <img src="../images/vancouverDay1/IMG_2166.jpg" 
@@ -36,7 +36,7 @@ We lived close to Robson Street, which is a nice location - full of stores and r
     />
 </div>
 
-There is also a wide assortment of Asian supermarkets and plazas - passing by these, I briefly wondered whether I was back in Seoul.
+There is also a wide assortment of Asian supermarkets and plazas - passing by these, I briefly wondered whether I was back in Seoul (?!).
 
 <div>
     <img src="../images/vancouverDay1/IMG_2170.jpg" 
@@ -63,7 +63,7 @@ We got the chicken karaage as a safe appetizer choice (they had many options) an
     />
 </div>
 
-In the evening we decided to walk to the waterfront to see the sunset. We passed by a collection of reflective high-rises:
+In the evening we decided to walk to the waterfront to see the sunset. We passed by a collection of mirror-like high-rises:
 
 <div>
     <img src="../images/vancouverDay1/IMG_2208.jpg" 
@@ -72,7 +72,7 @@ In the evening we decided to walk to the waterfront to see the sunset. We passed
     />
 </div>
 
-... and finally made it to the waterfront. The golden hour view was spectacular, and the water was glassy and calm. I always knew Canada was beautiful, but even in Downtown ?! - I could live here forever.
+... and finally made it to the waterfront. The golden hour view was spectacular, and the ocean was glassy and calm. I always knew Canada was beautiful, but even in Downtown ?! - I could live here forever.
 
 <div>
     <img src="../images/vancouverDay1/IMG_2216.jpg" 
@@ -99,7 +99,7 @@ There is a small sorbet place there, and my friend and I split a double scoop of
     />
 </div>
 
-It was the perfect sweet ending to our first day in Vancouver. ☆ 
+And it was the perfect sweet ending to our first day in Vancouver. ☆ 
 
 _tags: location/canada, vancouver downtown, robson street, jinya ramen bar, machi machi_
 
