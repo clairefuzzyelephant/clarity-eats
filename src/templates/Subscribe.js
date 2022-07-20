@@ -11,7 +11,7 @@ export default function Subscribe() {
 
     async function signUpNewsletter(e) {
         e.preventDefault();
-        console.log(email);
+        setSubscribeButtonText("loading...");
         let res = await addToMailchimp(email);
         console.log(res);
         if (res.result === "success") {
