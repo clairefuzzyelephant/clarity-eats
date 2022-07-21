@@ -1,12 +1,33 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link, useStaticQuery } from "gatsby";
+import { graphql } from "gatsby";
 
 import "../styling/index.css";
 
-export default function SearchResults({results, posts, searchQuery, queryLabel}) {
+export default function SearchResults({results, searchQuery, queryLabel}) {
+
+  const data = useStaticQuery(graphql`
+    query photoQuery {
+      blog: allMarkdownRemark{
+        posts: nodes {
+          frontmatter {
+            title
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
 
   const ResultList = () => {
     if (results.length > 0) {
+      const posts = data.blog.posts;
       let imgs = {};
       for (let i = 0; i < results.length; i++) {
         for (let j = 0; j < posts.length; j++) {

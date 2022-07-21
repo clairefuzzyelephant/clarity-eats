@@ -13,8 +13,6 @@ export default function BlogPost({ data }) {
     identifier: post.id
   };
 
-  console.log(disqusConfig);
-
   return (
     <div className="singlePostViewSiteContainer">
       <div className="singlePostContainer">

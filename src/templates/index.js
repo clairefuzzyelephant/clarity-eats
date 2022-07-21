@@ -66,7 +66,7 @@ export default function Home({data, pageContext}) {
           <div className="postContainer">
             <Menu searchFunction={search} clearSearch={clearSearch}/>
             {searchQuery.length > 0 ? 
-              <SearchResults results={results} posts={blog.posts} searchQuery={searchQuery} queryLabel={searchQueryLabel} /> 
+              <SearchResults results={results} searchQuery={searchQuery} queryLabel={searchQueryLabel} /> 
               : <Blog data={blog.posts} context={pageContext} />}
           </div>
         </div>

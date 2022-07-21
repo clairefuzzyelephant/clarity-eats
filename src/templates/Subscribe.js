@@ -13,7 +13,6 @@ export default function Subscribe() {
         e.preventDefault();
         setSubscribeButtonText("loading...");
         let res = await addToMailchimp(email);
-        console.log(res);
         if (res.result === "success") {
             setSubscribeButtonText("thanks for subscribing!");
             setEmail("");
