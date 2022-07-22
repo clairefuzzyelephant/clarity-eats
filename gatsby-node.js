@@ -20,7 +20,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const result = await graphql(`
       query {
         allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
+          sort: { fields: [frontmatter___date], order: ASC }
           limit: 1000
         ) {
           edges {
@@ -49,14 +49,14 @@ exports.createPages = async ({ graphql, actions }) => {
       })
     })
   
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    result.data.allMarkdownRemark.edges.forEach(({ node }, index) => {
       createPage({
         path: node.fields.slug,
         component: path.resolve(`./src/templates/single-post.js`),
         context: {
-          // Data passed to context is available
-          // in page queries as GraphQL variables.
           slug: node.fields.slug,
+          prev: index === 0 ? null : posts[index-1].node,
+          next: index === (posts.length - 1) ? null : posts[index + 1].node
         },
       })
     })

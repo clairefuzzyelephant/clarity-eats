@@ -59,6 +59,11 @@
     color: rgb(27, 17, 2);
 }
 
+.singlePostEndNavigation {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media (max-width: 1000px) {
     .commentSection {
         background-color: white;

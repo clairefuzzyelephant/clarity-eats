@@ -4,7 +4,10 @@ import "../styling/single-post.css";
 import { Disqus } from 'gatsby-plugin-disqus';
 import Footer from "./Footer";
 
-export default function BlogPost({ data }) {
+export default function BlogPost({ data, pageContext }) {
+  const {prev, next} = pageContext
+  console.log(prev)
+  console.log(next)
   const post = data.markdownRemark
 
   let disqusConfig = {
@@ -22,6 +25,16 @@ export default function BlogPost({ data }) {
         <h1>{post.frontmatter.title}</h1>
         <small>{post.frontmatter.date}</small>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className="singlePostEndNavigation">
+          {prev ? 
+          <Link to={prev.fields.slug} className="singlePostBackButton">
+          ← previous post
+          </Link> : null}
+          {next ? 
+          <Link to={next.fields.slug} className="singlePostBackButton">
+          next post → 
+          </Link> : null}
+        </div>
       </div>
       <div className="commentSection">
         <h1>share your thoughts!</h1>
