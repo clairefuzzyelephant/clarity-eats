@@ -29,8 +29,8 @@ export default function Blog({ data, context }) {
             </div>
             <div className="pageNumMenu">
                 {pageNumArray.map(pageNum => (
-                            <Link className="pageNum" to={pageNum == 1 ? "/" : "page" + (pageNum).toString()}>
-                                {pageNum == context.currentPage ? 
+                            <Link className="pageNum" to={pageNum === 1 ? "/" : "page" + (pageNum).toString()}>
+                                {pageNum === context.currentPage ? 
                                 <div className="currentPageLink">
                                     {pageNum}
                                 </div>
