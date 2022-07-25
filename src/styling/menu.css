@@ -134,4 +134,8 @@
     .clearButton:hover {
         cursor: pointer;
     }
+
+    .menuSearchIcon {
+        display: none;
+    }
 }
