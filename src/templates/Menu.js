@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import SearchBar from "./SearchBar.js";
 import Select from 'react-select';
+import { AiOutlineSearch } from 'react-icons/ai'
+import { IconContext } from "react-icons";
 
 import "../styling/menu.css";
 
 export default function Menu({searchFunction, clearSearch}) {
     const [location, setLocation] = useState('all')
+    const [searching, setSearching] = useState(false);
 
     const options = [ //update this
         { value: 'all', label: 'all locations'},
@@ -24,6 +27,7 @@ export default function Menu({searchFunction, clearSearch}) {
             color: '#1B1102',
             backgroundColor: '#F5F5EE',
             marginTop: 4,
+            cursor: 'pointer',
         }),
     }
 
@@ -35,6 +39,20 @@ export default function Menu({searchFunction, clearSearch}) {
         }
         setLocation(loc);
         searchFunction(loc.value, loc.label);
+    }
+
+    function displaySearch() {
+        if (searching) {
+            console.log("yo what")
+            setSearching(false);
+        }
+        else {
+            console.log('what the fuck')
+            setSearching(true);
+        }
+        // console.log("hi!")
+        // setSearching(true);
+        // console.log(searching);
     }
         
 
@@ -68,7 +86,18 @@ export default function Menu({searchFunction, clearSearch}) {
                 </div>
             </div>
             <div className="menuSearch">
-                <SearchBar searchFunction={searchFunction} clearSearch={clearSearch}/>
+                {searching ? 
+                <SearchBar searchFunction={searchFunction} clearSearch={() => {clearSearch(); displaySearch();}}/>
+                : 
+                <IconContext.Provider value={{ color: "#ab9a7a", className: "menuSearchIcon" }}>
+                    <div 
+                    onClick={() => displaySearch()}
+                    onKeyDown={null}
+                    >
+                        <AiOutlineSearch />
+                    </div>
+                </IconContext.Provider>
+                }
             </div>
         </div>
     );

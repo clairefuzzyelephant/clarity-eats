@@ -7,21 +7,25 @@
 
 
 .menuOptions {
-    width: 100%;
+    width: 200px;
     /* grid-template-columns: 1fr 2fr; */
     font-size: 16px;
 }
 
-.menuOptions div:hover {
+.menuOptions:hover {
     cursor: pointer;
 }
 
 .menuLocationSelect{
-    width: 100%;
+    width: 200px;
     background-color: none;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 14px;
     border-radius: 10px;
+}
+
+.menuLocationSelect:hover {
+    cursor: pointer;
 }
 
 
@@ -29,6 +33,7 @@
     display: flex;
     margin-left: 55px;
     background-color: transparent;
+    color: #ab9a7a;
     
 }
 
@@ -40,17 +45,27 @@
     border-radius: 10px;
     background-color: none;
     padding-inline: 10px;
-    border: 1px solid rgba(27, 17, 2, 0.5);
+    border: 1px solid #ab9a7a;
     font-size: 14px;
+    transition: width 1s ease-in;
 }
 
 .clearButton {
     margin-left: 10px;
     font-size: 12px;
     padding-top: 4px;
+    color: #ab9a7a;
 }
 
 .clearButton:hover {
+    cursor: pointer;
+}
+
+.menuSearchIcon {
+    margin-top: 10px;
+}
+
+.menuSearchIcon:hover {
     cursor: pointer;
 }
 
@@ -92,6 +107,7 @@
         width: 10vw;
         background-color: transparent; 
         margin-left: 0px;   
+        color: #ab9a7a;
     }
     
     .searchBar input {
@@ -112,6 +128,7 @@
         font-size: 16px;
         padding-top: 8px;
         margin-left: 0;
+        color: #ab9a7a;
     }
     
     .clearButton:hover {
