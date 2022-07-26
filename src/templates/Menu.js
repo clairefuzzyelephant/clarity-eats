@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import SearchBar from "./SearchBar.js";
 import Select from 'react-select';
-import { AiOutlineSearch } from 'react-icons/ai'
+import { AiOutlineSearch } from 'react-icons/ai';
+import { IoGrid, IoList } from 'react-icons/io5';
 import { IconContext } from "react-icons";
 
 import "../styling/menu.css";
 
-export default function Menu({searchFunction, clearSearch}) {
+export default function Menu({searchFunction, clearSearch, switchView, isGrid}) {
     const [location, setLocation] = useState('all')
     const [searching, setSearching] = useState(false);
 
@@ -42,53 +43,52 @@ export default function Menu({searchFunction, clearSearch}) {
     }
 
     function displaySearch() {
-        if (searching) {
-            console.log("yo what")
-            setSearching(false);
-        }
-        else {
-            console.log('what the fuck')
-            setSearching(true);
-        }
-        // console.log("hi!")
-        // setSearching(true);
-        // console.log(searching);
+        setSearching(!searching);
     }
         
 
     return (
         <div className="menuContainer">
-            <div className="menuOptions">
-                <div>
-                <Select
-                    styles={customStyles}
-                    className="menuLocationSelect"
-                    // classNamePrefix="menuLocationSelect"
-                    isSearchable={false}
-                    theme={(theme) => ({
-                        ...theme,
-                        colors: {
-                            ...theme.colors,
-                            text: '#1B1102',
-                            primary25: '#E9DCC2',
-                            primary75: '#E9DCC2',
-                            primary50: '#d6c4a1',
-                            primary: '#CCB995',
-                        }
-                    })}
-                    value={location}
-                    placeholder="location"
-                    defaultValue={"all locations"}
-                    onChange={e => filterByLocation(e)}
-                    options={options}
-                />
-                    
-                </div>
+                <div className="menuOptions">
+                    <div>
+                    <Select
+                        styles={customStyles}
+                        className="menuLocationSelect"
+                        // classNamePrefix="menuLocationSelect"
+                        isSearchable={false}
+                        theme={(theme) => ({
+                            ...theme,
+                            colors: {
+                                ...theme.colors,
+                                text: '#1B1102',
+                                primary25: '#E9DCC2',
+                                primary75: '#E9DCC2',
+                                primary50: '#d6c4a1',
+                                primary: '#CCB995',
+                            }
+                        })}
+                        value={location}
+                        placeholder="location"
+                        defaultValue={"all locations"}
+                        onChange={e => filterByLocation(e)}
+                        options={options}
+                    />
+                        
+                    </div>
             </div>
             <div className="menuSearch">
                 {searching ? 
                 <SearchBar searchFunction={searchFunction} clearSearch={() => {clearSearch(); displaySearch();}}/>
                 : 
+                <div className="menuViewOptions">
+                <IconContext.Provider value={{ color: "#ab9a7a", className: "menuSearchIcon" }}>
+                    <div 
+                    onClick={() => switchView()}
+                    onKeyDown={null}
+                    >
+                        {isGrid ? <IoList /> : <IoGrid />}
+                    </div>
+                </IconContext.Provider>
                 <IconContext.Provider value={{ color: "#ab9a7a", className: "menuSearchIcon" }}>
                     <div 
                     onClick={() => displaySearch()}
@@ -97,6 +97,7 @@ export default function Menu({searchFunction, clearSearch}) {
                         <AiOutlineSearch />
                     </div>
                 </IconContext.Provider>
+                </div>
                 }
             </div>
         </div>

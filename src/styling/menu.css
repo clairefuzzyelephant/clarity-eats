@@ -5,6 +5,13 @@
     padding: 20px;
 }
 
+.menuViewOptions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50px;
+}
+
 
 .menuOptions {
     width: 150px;

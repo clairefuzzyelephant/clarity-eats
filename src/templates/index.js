@@ -17,6 +17,8 @@ export default function Home({data, pageContext}) {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchQueryLabel, setSearchQueryLabel] = useState("");
 
+  const [gridView, setGridView] = useState(false);
+
   const getSearchResults = (query) => {
     var index = window.__FLEXSEARCH__.en.index
     var store = window.__FLEXSEARCH__.en.store
@@ -54,6 +56,10 @@ export default function Home({data, pageContext}) {
       setResults([]);
     }
 
+    function switchView() {
+      setGridView(!gridView);
+  }
+
   return (
     <div>
       <Helmet>
@@ -64,10 +70,10 @@ export default function Home({data, pageContext}) {
         <div className="siteMainContent">
           <LeftSideBar site={site} image={image} />
           <div className="postContainer">
-            <Menu searchFunction={search} clearSearch={clearSearch}/>
+            <Menu searchFunction={search} clearSearch={clearSearch} switchView={switchView} isGrid={gridView}/>
             {searchQuery.length > 0 ? 
               <SearchResults results={results} searchQuery={searchQuery} queryLabel={searchQueryLabel} /> 
-              : <Blog data={blog.posts} context={pageContext} />}
+              : <Blog data={blog.posts} context={pageContext} isGrid={gridView} />}
           </div>
         </div>
         <Footer />

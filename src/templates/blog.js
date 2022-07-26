@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import "../styling/index.css";
 
-export default function Blog({ data, context }) {
+export default function Blog({ data, context, isGrid }) {
     const posts = data;
     let postArray = []
     for (let i = 0; i < posts.length; i++) {
@@ -16,7 +16,21 @@ export default function Blog({ data, context }) {
     return (
         <div>
             <div>
-                {postArray.map(([slug, src, title, date, excerpt]) => (
+                {isGrid ?
+                <div className="blogGridView">
+                    {postArray.map(([slug, src, title, date, excerpt]) => (
+                        // <div className="postBox">
+                            <Link className="post" to={slug}>
+                                <img alt="" src={src} />
+                                <div className="postTitle">{title}</div>
+                                <small>{date}</small>
+                                <p>{excerpt}</p>
+                            </Link>
+                        // </div>
+                    ))}
+                </div> 
+                :
+                postArray.map(([slug, src, title, date, excerpt]) => (
                     <div className="postBox">
                         <Link className="post" to={slug}>
                             <img alt="" src={src} />
@@ -25,7 +39,8 @@ export default function Blog({ data, context }) {
                             <p>{excerpt}</p>
                         </Link>
                     </div>
-                ))}
+                ))
+                }
             </div>
             <div className="pageNumMenu">
                 {pageNumArray.map(pageNum => (
