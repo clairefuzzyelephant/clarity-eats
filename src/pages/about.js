@@ -14,7 +14,7 @@ export default function About() {
                   description
                 }
             }
-            image: file(base: {eq: "runningTotoro.gif" }) {
+            image: file(base: {eq: "totoro-gif2music.gif" }) {
                 publicURL
             }
         }
@@ -26,6 +26,8 @@ export default function About() {
                 <div className="postContainer">
                     <div className="aboutContainer">
                         hello and welcome to my travel and food blog! i love trying foods in new places, so i decided to make a blog out of it. this is still very much a work in progress, but hopefully you'll find something of interest here :) ☆ 
+                        <br /><br />
+                        <i>all images on this site are my own unless stated otherwise.</i>
                     </div>
                 </div>
             </div>

@@ -84,7 +84,7 @@ export const pageQuery = graphql`
         description
       }
     }
-    image: file(base: {eq: "runningTotoro.gif" }) {
+    image: file(base: {eq: "totoro-gif2music.gif" }) {
       publicURL
     }
     blog: allMarkdownRemark(

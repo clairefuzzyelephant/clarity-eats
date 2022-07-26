@@ -21,7 +21,7 @@ export default function Menu({searchFunction, clearSearch}) {
     const customStyles = {
         control: (provided, state) => ({
             ...provided,
-            width: 200,
+            width: 150,
             borderWidth: 0,
             boxShadow: 0,
             color: '#1B1102',
@@ -77,7 +77,7 @@ export default function Menu({searchFunction, clearSearch}) {
                         }
                     })}
                     value={location}
-                    placeholder="filter by location"
+                    placeholder="location"
                     defaultValue={"all locations"}
                     onChange={e => filterByLocation(e)}
                     options={options}

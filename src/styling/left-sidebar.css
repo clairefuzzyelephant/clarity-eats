@@ -1,5 +1,5 @@
 .leftSidebar {
-    width: 300px;
+    width: 350px;
     max-width: 30vw;
     height: fit-content;
     margin-left: 10vw;
@@ -9,16 +9,30 @@
 
 .siteTitle {
     font-family: 'Share Tech Mono', monospace;
-    font-size: 50px;
+    font-size: 45px;
+    width: 175px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-    text-align: left;
+    text-align: right;
+    /* margin-left: -10px; */
 }
 
 .leftSidebar img {
     /* margin-top: 50px; */
-    width: 100px;
-    height: 100px;
+    width: 175px;
+    height: 175px;
     object-fit: cover;
+}
+
+.titleSection {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.titleDescription {
+    text-align: right;
 }
 
 .leftSidebarMenu {
@@ -27,6 +41,7 @@
     margin-left: 25%;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    align-items: baseline;
 }
 
 .leftSidebarLink {
@@ -34,13 +49,6 @@
     text-decoration: none;
 }
 
-.titleSection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
 
 .archiveSection {
     margin-right: 20px;
@@ -74,12 +82,17 @@
         /* margin-left: 10vw; */
         margin-top: 5px;
         text-align: center;
+        margin-left: 0px;
+    }
+
+    .titleDescription {
+        text-align: center;
     }
 
     .leftSidebar p {
         font-size: 1.25em;
         width: 80vw;
-        margin-left: 10vw;
+        /* margin-left: 10vw; */
     }
 
     .leftSidebar img {
@@ -87,7 +100,7 @@
         top: 50px;
         left: 25vw;
         width: 50vw;
-        height: 15vh;
+        height: 20vh;
         object-fit: scale-down;
     }
 

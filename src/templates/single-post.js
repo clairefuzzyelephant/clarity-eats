@@ -3,11 +3,10 @@ import { graphql, Link } from "gatsby";
 import "../styling/single-post.css";
 import { Disqus } from 'gatsby-plugin-disqus';
 import Footer from "./Footer";
+import ocarinaTotoro from "../images/totoro-gif2music.gif";
 
 export default function BlogPost({ data, pageContext }) {
   const {prev, next} = pageContext
-  console.log(prev)
-  console.log(next)
   const post = data.markdownRemark
 
   let disqusConfig = {
@@ -18,6 +17,7 @@ export default function BlogPost({ data, pageContext }) {
 
   return (
     <div className="singlePostViewSiteContainer">
+      <img className="singlePostViewSideImage" alt="Ocarina totoro" src={ocarinaTotoro}/>
       <div className="singlePostContainer">
         <Link to="/" className="singlePostBackButton">
          ← back

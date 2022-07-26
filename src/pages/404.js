@@ -14,7 +14,7 @@ export default function About() {
                   description
                 }
             }
-            image: file(base: {eq: "runningTotoro.gif" }) {
+            image: file(base: {eq: "totoro-gif2music.gif" }) {
                 publicURL
             }
         }
@@ -25,7 +25,7 @@ export default function About() {
                 <LeftSideBar site={data.site} image={data.image} />
                 <div className="postContainer">
                     <div className="aboutContainer">
-                        that page doesn't exist :( pls try again! ☆ 
+                        oops! that page doesn't exist :( pls try again! ☆ 
                     </div>
                 </div>
             </div>

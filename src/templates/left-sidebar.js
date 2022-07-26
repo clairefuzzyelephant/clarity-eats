@@ -23,10 +23,13 @@ export default function LeftSideBar({ site, image }) {
   return (
     <div className="leftSidebar">
         <div className="titleSection">
-          <div className="siteTitle">{title}</div>
-          <img alt="Running totoro" src={image.publicURL}/>
+          <img alt="Ocarina totoro" src={image.publicURL}/>
+          <div className="titleDescription">
+            <div className="siteTitle">{title}</div>
+            <p>{description}</p>
+          </div>
         </div>
-        <p>{description}</p>
+        
         <div className="leftSidebarMenu">
           <Link className="leftSidebarLink" to="/">home</Link>
           <Link className="leftSidebarLink" to="/about/">about</Link>

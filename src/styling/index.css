@@ -40,9 +40,9 @@ html {
 
 .postContainer {
     margin-top: 50px;
-    width: 40vw;
+    width: 30vw;
     text-align: left;
-    margin-left: 10vw;
+    margin-left: 15vw;
 }
 
 .postContainer img {
@@ -289,5 +289,12 @@ html {
 
     .item-search p {
         font-size: 1em;
+    }
+
+    .aboutContainer {
+        margin-left: 10vw;
+        width: 80vw;
+        margin-bottom: 10vh;
+        text-align: center;
     }
 }

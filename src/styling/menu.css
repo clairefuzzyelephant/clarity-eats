@@ -7,7 +7,7 @@
 
 
 .menuOptions {
-    width: 200px;
+    width: 150px;
     /* grid-template-columns: 1fr 2fr; */
     font-size: 16px;
 }
@@ -17,7 +17,7 @@
 }
 
 .menuLocationSelect{
-    width: 200px;
+    width: 150px;
     background-color: none;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 14px;
@@ -31,7 +31,7 @@
 
 .searchBar {
     display: flex;
-    margin-left: 55px;
+    /* margin-left: 15px; */
     background-color: transparent;
     color: #ab9a7a;
     
@@ -40,7 +40,7 @@
 .searchBar input {
     font-family: 'Nunito Sans', sans-serif;
     padding: 1px;
-    width: 150px;
+    width: 80%;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     background-color: none;
@@ -51,7 +51,7 @@
 }
 
 .clearButton {
-    margin-left: 10px;
+    margin-left: 7px;
     font-size: 12px;
     padding-top: 4px;
     color: #ab9a7a;
