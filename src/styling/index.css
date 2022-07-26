@@ -136,6 +136,11 @@ html {
     margin-top: 100px;
 }
 
+.aboutContainer a {
+    color: #ab9a7a;
+    text-decoration: none;
+}
+
 .pageNumMenu {
     display: flex;
     justify-content: center;
