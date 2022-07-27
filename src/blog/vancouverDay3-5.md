@@ -1,5 +1,5 @@
 ---
-title: 「 vancouver day 3-5 」 - sunset beach, (maze)soba, and soybean soft-serve
+title: 「 vancouver days 3-5 」 - sunset beach, (maze)soba, and soybean soft-serve
 date: 2022-07-08
 featuredImage: ../images/vancouverDay3-5/mazesoba.jpg
 ---
