@@ -95,6 +95,7 @@ html {
     margin-bottom: 50px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     /* width: 40vw; */
     background-color: white;
     padding: 20px;
@@ -114,11 +115,11 @@ html {
 
 .item-search h4 {
     font-size: 16px;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
 .item-search p {
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 12px;
 }
 
@@ -171,6 +172,10 @@ html {
 
 .blogGridView .post {
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .blogGridView .postTitle {
@@ -185,7 +190,6 @@ html {
     height: 150px;
     width: 200px;
     object-fit: cover;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .blogGridView p {

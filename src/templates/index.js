@@ -70,7 +70,7 @@ export default function Home({data, pageContext}) {
         <div className="siteMainContent">
           <LeftSideBar site={site} image={image} />
           <div className="postContainer">
-            <Menu searchFunction={search} clearSearch={clearSearch} switchView={switchView} isGrid={gridView}/>
+            <Menu searchFunction={search} clearSearch={clearSearch} switchView={switchView} isGrid={gridView} isFiltering={searchQuery.length > 0}/>
             {searchQuery.length > 0 ? 
               <SearchResults results={results} searchQuery={searchQuery} queryLabel={searchQueryLabel} /> 
               : <Blog data={blog.posts} context={pageContext} isGrid={gridView} />}

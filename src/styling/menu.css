@@ -76,6 +76,10 @@
     cursor: pointer;
 }
 
+.disabledGridIcon {
+    margin-top: 10px;
+}
+
 @media (max-width: 1000px) {
     .menuContainer {
         display: flex;

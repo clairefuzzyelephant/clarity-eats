@@ -7,7 +7,7 @@ import { IconContext } from "react-icons";
 
 import "../styling/menu.css";
 
-export default function Menu({searchFunction, clearSearch, switchView, isGrid}) {
+export default function Menu({searchFunction, clearSearch, switchView, isGrid, isFiltering}) {
     const [location, setLocation] = useState('all')
     const [searching, setSearching] = useState(false);
 
@@ -81,9 +81,9 @@ export default function Menu({searchFunction, clearSearch, switchView, isGrid}) 
                 <SearchBar searchFunction={searchFunction} clearSearch={() => {clearSearch(); displaySearch();}}/>
                 : 
                 <div className="menuViewOptions">
-                <IconContext.Provider value={{ color: "#ab9a7a", className: "menuSearchIcon" }}>
+                <IconContext.Provider value={{ color: isFiltering ? 'lightgrey' : "#ab9a7a", className: isFiltering ? "disabledGridIcon" : "menuSearchIcon" }}>
                     <div 
-                    onClick={() => switchView()}
+                    onClick={isFiltering ? null : () => switchView()}
                     onKeyDown={null}
                     >
                         {isGrid ? <IoList /> : <IoGrid />}
