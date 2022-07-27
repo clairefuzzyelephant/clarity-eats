@@ -172,8 +172,17 @@ Since it was the last night, my friend and I stopped by Breka for some desserts,
         style="height: 400px; object-fit:cover;display:inline-block;"
     />
 </div>
+<br />
+<hr>
 
 This Vancouver trip was not as carefully planned as the type of vacations I'm used to, but we got to try a lot of different foods, and the quality and variety of the Asian food scene honestly blew my mind. There were _so_ many restaurants that we didn't have enough mealtimes to try. All in all, I would definitely come back again. 
+
+<div>
+    <img src="../images/vancouverDay3-5/IMG_2780.jpeg" 
+        alt="Moose keychain at YVR before departure"
+        style="height: 400px; object-fit:cover;display:inline-block;"
+    />
+</div>
 
 So long, Canada. ☆ 
 
