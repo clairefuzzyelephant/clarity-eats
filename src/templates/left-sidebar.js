@@ -6,7 +6,6 @@ import { Link } from "gatsby";
 import Subscribe from "./Subscribe.js";
 
 export default function LeftSideBar({ site, image, titles, links }) {
-  console.log(links);
   const { title, description } = site.siteMetadata;
   const currentDate = new Date(); //hardcoded
   let startDate = new Date("2022-06-02"); //hardcoded, my first blog post
@@ -16,7 +15,7 @@ export default function LeftSideBar({ site, image, titles, links }) {
   const months = [];
   let i = 0;
   while (startDate < currentDate) {
-    if (i >= titles.length) break;
+    if (titles && i >= titles.length) break;
     months.push(monthNames[startDate.getMonth()] + startDate.getFullYear().toString());
     startDate.setMonth(startDate.getMonth() + 1);
     i += 1;

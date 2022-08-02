@@ -68,8 +68,6 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
 
-    console.log(postLinks);
-
     //all posts, broken up by 10 posts per page for ease of access
     Array.from({ length: numPages }).forEach((_, i) => {
       createPage({
