@@ -27,7 +27,7 @@ export default function LeftSideBar({ site, image, titles, links }) {
   return (
     <div className="leftSidebar">
         <div className="titleSection">
-          <Link to="/"><img alt="Ocarina totoro" src={image.publicURL}/></Link>
+          <Link to="/"><img alt="clarity eats logo" src={image.publicURL}/></Link>
           <div className="titleDescription">
             <Link to="/" className="linkNoFormatting">
               <div className="siteTitle">{title}</div>

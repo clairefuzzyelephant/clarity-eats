@@ -13,8 +13,6 @@ export default function Home({data, pageContext}) {
 
   const {site, image, blog} = data;
 
-  console.log(pageContext);
-
   const { titles, links } = pageContext;
 
   const [results, setResults] = useState([]);
