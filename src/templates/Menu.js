@@ -53,7 +53,7 @@ export default function Menu({searchFunction, clearSearch, switchView, isGrid, i
                     <div>
                     <Select
                         styles={customStyles}
-                        className={searching ? "menuLocationSelectHiddenOnMobile" : "menuLocationSelect"}
+                        className={searching ? "menuLocationSelectHidden" : "menuLocationSelect"}
                         isSearchable={false}
                         theme={(theme) => ({
                             ...theme,

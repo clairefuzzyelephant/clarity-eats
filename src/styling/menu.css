@@ -35,45 +35,35 @@
     cursor: pointer;
 }
 
-.menuLocationSelectHiddenOnMobile { /* same as above on desktop */
-    width: 200px;
-    height: 40px;
-    margin-left: 15px;
-    /* margin-left: calc(100vw - 260px); */
-    background-color: none;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 1em;
-    border-radius: 10px;
-}
-
-.menuLocationSelectHiddenOnMobile:hover {
-    cursor: pointer;
+.menuLocationSelectHidden {
+    display: none;
 }
 
 
 .searchBar {
     display: flex;
+    /* width: 30vw; */
     /* margin-left: 15px; */
     background-color: transparent;
     color: #ab9a7a;
+    padding: 10px;
     
 }
 
 .searchBar input {
     font-family: 'Nunito Sans', sans-serif;
     padding: 1px;
-    width: 80%;
+    width: 20vw;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     background-color: none;
     padding-inline: 10px;
     border: 1px solid #ab9a7a;
     font-size: 14px;
-    transition: width 1s ease-in;
 }
 
 .clearButton {
-    margin-left: 7px;
+    margin-left: 12px;
     font-size: 12px;
     padding-top: 4px;
     color: #ab9a7a;
@@ -133,7 +123,7 @@
         border-radius: 10px;
     }
 
-    .menuLocationSelectHiddenOnMobile {
+    .menuLocationSelectHidden {
         display: none;
     }
 
@@ -148,6 +138,7 @@
     
     .searchBar input {
         width: 70vw;
+        margin-left: calc(15vw - 60px);
         font-family: 'Nunito Sans', sans-serif;
         padding: 1px;
         /* width: 80%; */
@@ -157,7 +148,6 @@
         padding-inline: 10px;
         border: 1px solid #ab9a7a;
         font-size: 14px;
-        transition: width 1s ease-in;
     }
     
     .clearButton {
