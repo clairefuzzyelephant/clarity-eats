@@ -7,6 +7,11 @@
     text-align: center;
 }
 
+.linkNoFormatting {
+    text-decoration: none;
+    color: rgb(27, 17, 2);
+}
+
 .siteTitle {
     font-family: 'Share Tech Mono', monospace;
     font-size: 45px;
@@ -56,9 +61,26 @@
     margin-top: 50px;
 }
 
+.archiveSectionMonthSection {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .archiveSectionLink {
     color: #ab9a7a;
-    text-decoration: none
+    text-decoration: none;
+}
+
+.archiveSectionSubLink {
+    color: #ab9a7a;
+    text-decoration: none;
+    width: 20vw;
+    margin-left: calc(10vw - 20px);
+    display: block;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 @media (max-width: 1000px) {

@@ -29,6 +29,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 slug
               }
               frontmatter {
+                title
                 date
               }
             }
@@ -39,22 +40,12 @@ exports.createPages = async ({ graphql, actions }) => {
     const posts = result.data.allMarkdownRemark.edges
     const postsPerPage = 10
     const numPages = Math.ceil(posts.length / postsPerPage)
-    Array.from({ length: numPages }).forEach((_, i) => {
-      createPage({
-        path: i === 0 ? `/` : `/page${i + 1}`,
-        component: path.resolve(`./src/templates/index.js`),
-        context: {
-          limit: postsPerPage,
-          skip: i * postsPerPage,
-          numPages,
-          currentPage: i + 1,
-        },
-      })
-    })
 
     const monthNames = ["january","february","march","april","may","june","july","august","september","october","november","december"];
 
     const postsByMonth = [0];
+    const postTitles = [[]]
+    const postLinks = [[]]
     const monthLabels = []
     let currentMonth = null;
     for (let i = 0; i < posts.length; i++) {
@@ -66,13 +57,36 @@ exports.createPages = async ({ graphql, actions }) => {
       }
       if (dateMonth == currentMonth) {
         postsByMonth[postsByMonth.length - 1] += 1;
+        postTitles[postTitles.length - 1].push(posts[i].node.frontmatter.title)
+        postLinks[postLinks.length - 1].push(posts[i].node.fields.slug)
       } else {
         postsByMonth.push(1);
+        postTitles.push([posts[i].node.frontmatter.title])
+        postLinks.push([posts[i].node.fields.slug])
         currentMonth = dateMonth;
         monthLabels.push(currentMonth);
       }
     }
 
+    console.log(postLinks);
+
+    //all posts, broken up by 10 posts per page for ease of access
+    Array.from({ length: numPages }).forEach((_, i) => {
+      createPage({
+        path: i === 0 ? `/` : `/page${i + 1}`,
+        component: path.resolve(`./src/templates/index.js`),
+        context: {
+          limit: postsPerPage,
+          skip: i * postsPerPage,
+          numPages,
+          currentPage: i + 1,
+          titles: postTitles,
+          links: postLinks,
+        },
+      })
+    })
+
+    //archive of posts, sorted by month
     let accumulated = 0;
     postsByMonth.forEach((postGroup, i) => {
       createPage({
@@ -81,6 +95,8 @@ exports.createPages = async ({ graphql, actions }) => {
         context: {
           limit: postGroup,
           skip: accumulated,
+          titles: postTitles,
+          links: postLinks,
         }
       })
       accumulated += postGroup;
