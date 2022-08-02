@@ -85,12 +85,16 @@
         margin-left: 0px;
     }
 
+    .titleSection {
+        margin-bottom: 15px;
+    }
+
     .titleDescription {
         text-align: center;
     }
 
     .leftSidebar p {
-        font-size: 1.25em;
+        font-size: 1em;
         width: 80vw;
         /* margin-left: 10vw; */
     }

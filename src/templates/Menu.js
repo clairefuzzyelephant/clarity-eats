@@ -53,8 +53,7 @@ export default function Menu({searchFunction, clearSearch, switchView, isGrid, i
                     <div>
                     <Select
                         styles={customStyles}
-                        className="menuLocationSelect"
-                        // classNamePrefix="menuLocationSelect"
+                        className={searching ? "menuLocationSelectHiddenOnMobile" : "menuLocationSelect"}
                         isSearchable={false}
                         theme={(theme) => ({
                             ...theme,
@@ -81,7 +80,7 @@ export default function Menu({searchFunction, clearSearch, switchView, isGrid, i
                 <SearchBar searchFunction={searchFunction} clearSearch={() => {clearSearch(); displaySearch();}}/>
                 : 
                 <div className="menuViewOptions">
-                <IconContext.Provider value={{ color: isFiltering ? 'lightgrey' : "#ab9a7a", className: isFiltering ? "disabledGridIcon" : "menuSearchIcon" }}>
+                <IconContext.Provider value={{ color: isFiltering ? 'lightgrey' : "#ab9a7a", className: isFiltering ? "disabledGridIcon" : "switchViewIcon" }}>
                     <div 
                     onClick={isFiltering ? null : () => switchView()}
                     onKeyDown={null}
