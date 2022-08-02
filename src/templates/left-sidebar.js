@@ -20,7 +20,7 @@ export default function LeftSideBar({ site, image, titles, links }) {
     startDate.setMonth(startDate.getMonth() + 1);
     i += 1;
   }
-  const showExpansion = Object.fromEntries( titles.map( (_, i) => [months[i], false]));
+  const showExpansion = titles ? Object.fromEntries( titles.map( (_, i) => [months[i], false])) : null;
 
   const [expandArchive, setExpandArchive] = useState (showExpansion);
 
@@ -65,7 +65,7 @@ export default function LeftSideBar({ site, image, titles, links }) {
               )}
               className="archiveSectionMonthSection">
               <Link className="archiveSectionLink" to={"/" + month}>{month.slice(0, month.length-4) + " " + month.slice(month.length-4)}</Link>
-              {expandArchive[month] ? 
+              {expandArchive && expandArchive[month] ? 
               titles[i].map((title, j) => 
                 <div className="archiveSectionSubLinkSection">
                   <Link className="archiveSectionSubLink" to={links[i][j]}>{title}</Link>
