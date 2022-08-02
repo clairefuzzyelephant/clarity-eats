@@ -134,7 +134,7 @@ html {
 
 
 .aboutContainer {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .aboutContainer a {
@@ -329,6 +329,7 @@ html {
     }
 
     .aboutContainer {
+        margin-top: 30px;
         margin-left: 10vw;
         width: 80vw;
         margin-bottom: 10vh;
