@@ -25,6 +25,7 @@ export default function Home({data, pageContext}) {
     if (!query || !index) {
       return []
     } else {
+      query = query.trim()
       let tempResults = []
       Object.keys(index).forEach(idx => {
         tempResults.push(...index[idx].values.search(query))
