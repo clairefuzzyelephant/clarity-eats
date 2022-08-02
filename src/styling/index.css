@@ -104,13 +104,17 @@ html {
 }
 
 .item-search img {
-    width: 15vw;
+    width: 12vw;
+    height: 12vw;
     left: 0;
+    object-fit: fill;
     /* margin-top: 30px; */
 }
 
 .item-search-text {
     width: 20vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .item-search h4 {
@@ -119,6 +123,7 @@ html {
 }
 
 .item-search p {
+    margin-top: 2px;
     margin-left: 15px;
     font-size: 12px;
 }
@@ -308,10 +313,12 @@ html {
         padding: 20px;
         border-radius: 10px;
         box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+        max-height: fit-content;
     }
 
     .item-search img {
         width: 100%;
+        height: auto;
         left: 0;
         /* margin-top: 30px; */
     }

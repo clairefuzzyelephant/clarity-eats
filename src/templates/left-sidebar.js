@@ -68,7 +68,7 @@ export default function LeftSideBar({ site, image, titles, links }) {
               <Link className="archiveSectionLink" to={"/" + month}>{month.slice(0, month.length-4) + " " + month.slice(month.length-4)}</Link>
               {expandArchive[month] ? 
               titles[i].map((title, j) => 
-                <div>
+                <div className="archiveSectionSubLinkSection">
                   <Link className="archiveSectionSubLink" to={links[i][j]}>{title}</Link>
                 </div>
               ) : null}

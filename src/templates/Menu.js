@@ -13,10 +13,10 @@ export default function Menu({searchFunction, clearSearch, switchView, isGrid, i
 
     const options = [ //update this
         { value: 'all', label: 'all locations'},
-        { value: 'location/sfba', label: 'sf bay area' },
-        { value: 'location/korea', label: 'korea' },
         { value: 'location/canada', label: 'canada' },
-        { value: 'location/taiwan', label: 'taiwan' },
+        { value: 'location/korea', label: 'korea' },
+        { value: 'location/sfba', label: 'sf bay area' },
+        // { value: 'location/taiwan', label: 'taiwan' },
       ];
 
     const customStyles = {
