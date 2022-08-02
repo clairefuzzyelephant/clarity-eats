@@ -125,7 +125,7 @@
     .menuLocationSelect{
         width: 150px;
         height: 40px;
-        margin-left: 15px;
+        margin-left: calc(10vw - 25px);
         /* margin-left: calc(100vw - 260px); */
         background-color: none;
         font-family: 'Nunito Sans', sans-serif;
