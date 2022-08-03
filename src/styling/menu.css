@@ -85,6 +85,10 @@
     margin-top: 10px;
 }
 
+.switchViewIcon:hover {
+    cursor: pointer;
+}
+
 .disabledGridIcon {
     margin-top: 10px;
 }
