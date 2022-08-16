@@ -43,5 +43,5 @@ If you're curious about the origins of each of the teas, you can read the aesthe
 
 I'm a huge fan of this place (if you couldn't tell), but I recognize it may not be for everyone. If you love fruit teas and jelly toppings and specialty drinks, then this tea place is probably not for you. But if you're drawn to the tempting aromas of Tieguanyin and Assam, then I'd say you _definitely_ need to check them out. ☆ 
 
-_tags: brian black tea, fremont, 布萊恩, milk tea, boba, pacific commons_
+_tags: location/sfba, brian black tea, fremont, 布萊恩, milk tea, boba, pacific commons_
 

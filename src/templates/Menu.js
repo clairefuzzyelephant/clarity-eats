@@ -16,7 +16,7 @@ export default function Menu({searchFunction, clearSearch, switchView, isGrid, i
         { value: 'location/canada', label: 'canada' },
         { value: 'location/korea', label: 'korea' },
         { value: 'location/sfba', label: 'sf bay area' },
-        // { value: 'location/taiwan', label: 'taiwan' },
+        { value: 'location/taiwan', label: 'taiwan' },
       ];
 
     const customStyles = {
