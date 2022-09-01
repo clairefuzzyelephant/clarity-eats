@@ -1,7 +1,7 @@
 ---
 title: 「 taiwan food diary 」 - chamonix (夏慕尼)
-date: 2022-08-16
-featuredImage: ../images/taiwan/chamonix_salad.jpg
+date: 2022-08-27
+featuredImage: ../images/taiwan/chamonix_soup.jpg
 ---
 You've had French cuisine, you've had Japanese teppanyaki, but have you had... Japanese-French teppanyaki? 
 
