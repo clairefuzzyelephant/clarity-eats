@@ -1,7 +1,7 @@
 ---
 title: 「 taiwan travel diary 」 - the cutest cafes of taipei
 date: 2022-10-06
-featuredImage: ../images/taiwan/cafe1.jpg
+featuredImage: ../images/taiwan/2coffeestudio.jpg
 ---
 Near the end of my stay in Taiwan I decided to go cafe-hunting to find the most aesthetic in cafe in Taipei. It ended up proving quite a difficult task to choose the first place winner, so I'll let you decide out of my favorites...
 <br>
