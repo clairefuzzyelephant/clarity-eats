@@ -92,6 +92,8 @@ So these are my favorites. There are seriously way too many good places to eat a
 台灣,下次見~
 <br>
 
+_tags: location/taiwan, night markets, shopping_
+
 
 
 
