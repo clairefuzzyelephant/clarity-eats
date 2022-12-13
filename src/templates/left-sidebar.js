@@ -3,6 +3,8 @@ import "../styling/index.css";
 import "../styling/left-sidebar.css";
 import { Link } from "gatsby";
 
+import { AiOutlineInstagram, AiOutlineYoutube } from 'react-icons/ai'
+
 import Subscribe from "./Subscribe.js";
 
 export default function LeftSideBar({ site, image, titles, links }) {
@@ -35,10 +37,11 @@ export default function LeftSideBar({ site, image, titles, links }) {
             <p>{description}</p>
           </div>
         </div>
-        
         <div className="leftSidebarMenu">
-          <Link className="leftSidebarLink" to="/">home</Link>
-          <Link className="leftSidebarLink" to="/about/">about</Link>
+          <div><Link className="leftSidebarLink" to="/">home</Link></div>
+          <div><Link className="leftSidebarLink" to="/about/">about</Link></div>
+          <div className="leftSidebarIconDiv"><a className="leftSidebarIcon" target="_blank" href="https://www.instagram.com/clarityeats/"><AiOutlineInstagram /></a></div>
+          <div className="leftSidebarIconDiv"><a className="leftSidebarIcon"target="_blank" href="https://www.youtube.com/@clarityeats"><AiOutlineYoutube /></a></div>
         </div>
         <div className="subscribeForm">
           <p>subscribe for email updates!</p>
