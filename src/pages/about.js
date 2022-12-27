@@ -22,7 +22,7 @@ export default function About() {
     return (
         <div className="siteContainer">
             <div className="siteMainContent">
-                <LeftSideBar site={data.site} image={data.image} />
+                <LeftSideBar site={data.site} image={data.image}/>
                 <div className="postContainer">
                     <div className="aboutContainer">
                         hello and welcome to my travel and food blog! i love trying foods in new places, so i decided to make a blog out of it. this is still very much a work in progress, but hopefully you'll find something of interest here :) ☆ 
