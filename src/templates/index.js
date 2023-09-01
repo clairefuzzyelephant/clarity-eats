@@ -1,27 +1,26 @@
-import React, {useState} from "react"
+import React, { useState } from "react"
 import { graphql } from "gatsby"
-import "../styling/index.css";
+import "../styling/index.css"
 
-import Blog from "./blog";
-import LeftSideBar from "./left-sidebar.js";
-import Footer from "./Footer.js";
-import Menu from "./Menu.js";
-import SearchResults from "./SearchResults";
-import { Helmet } from "react-helmet";
+import Blog from "./blog"
+import LeftSideBar from "./left-sidebar.js"
+import Footer from "./Footer.js"
+import Menu from "./Menu.js"
+import SearchResults from "./SearchResults"
+import { Helmet } from "react-helmet"
 
-export default function Home({data, pageContext}) {
+export default function Home({ data, pageContext }) {
+  const { site, image, blog } = data
 
-  const {site, image, blog} = data;
+  const { titles, links } = pageContext
 
-  const { titles, links } = pageContext;
+  const [results, setResults] = useState([])
+  const [searchQuery, setSearchQuery] = useState("")
+  const [searchQueryLabel, setSearchQueryLabel] = useState("")
 
-  const [results, setResults] = useState([]);
-  const [searchQuery, setSearchQuery] = useState("");
-  const [searchQueryLabel, setSearchQueryLabel] = useState("");
+  const [gridView, setGridView] = useState(false)
 
-  const [gridView, setGridView] = useState(false);
-
-  const getSearchResults = (query) => {
+  const getSearchResults = query => {
     var index = window.__FLEXSEARCH__.en.index
     var store = window.__FLEXSEARCH__.en.store
     if (!query || !index) {
@@ -43,24 +42,24 @@ export default function Home({data, pageContext}) {
     }
   }
 
-  function search(query, queryLabel=null) {
-    let res;
+  function search(query, queryLabel = null) {
+    let res
     res = getSearchResults(query)
-    setResults(res);
-    setSearchQuery(query);
+    setResults(res)
+    setSearchQuery(query)
     if (queryLabel) {
-      setSearchQueryLabel(queryLabel);
+      setSearchQueryLabel(queryLabel)
     } else {
-      setSearchQueryLabel(null);
+      setSearchQueryLabel(null)
     }
   }
-    function clearSearch() {
-      setSearchQuery('');
-      setResults([]);
-    }
+  function clearSearch() {
+    setSearchQuery("")
+    setResults([])
+  }
 
-    function switchView() {
-      setGridView(!gridView);
+  function switchView() {
+    setGridView(!gridView)
   }
 
   return (
@@ -71,12 +70,29 @@ export default function Home({data, pageContext}) {
       </Helmet>
       <div className="siteContainer">
         <div className="siteMainContent">
-          <LeftSideBar site={site} image={image} titles={titles} links={links}/>
+          <LeftSideBar
+            site={site}
+            image={image}
+            titles={titles}
+            links={links}
+          />
           <div className="postContainer">
-            <Menu searchFunction={search} clearSearch={clearSearch} switchView={switchView} isGrid={gridView} isFiltering={searchQuery.length > 0}/>
-            {searchQuery.length > 0 ? 
-              <SearchResults results={results} searchQuery={searchQuery} queryLabel={searchQueryLabel} /> 
-              : <Blog data={blog.posts} context={pageContext} isGrid={gridView} />}
+            <Menu
+              searchFunction={search}
+              clearSearch={clearSearch}
+              switchView={switchView}
+              isGrid={gridView}
+              isFiltering={searchQuery.length > 0}
+            />
+            {searchQuery.length > 0 ? (
+              <SearchResults
+                results={results}
+                searchQuery={searchQuery}
+                queryLabel={searchQueryLabel}
+              />
+            ) : (
+              <Blog data={blog.posts} context={pageContext} isGrid={gridView} />
+            )}
           </div>
         </div>
         <Footer />
@@ -93,11 +109,11 @@ export const pageQuery = graphql`
         description
       }
     }
-    image: file(base: {eq: "totoro-gif2music.gif" }) {
+    image: file(base: { eq: "totoro-gif2music.gif" }) {
       publicURL
     }
     blog: allMarkdownRemark(
-      sort: {fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
     ) {

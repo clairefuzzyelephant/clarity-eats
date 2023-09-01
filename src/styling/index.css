@@ -96,7 +96,6 @@ html {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* width: 40vw; */
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -107,8 +106,7 @@ html {
     width: 12vw;
     height: 12vw;
     left: 0;
-    object-fit: fill;
-    /* margin-top: 30px; */
+    object-fit: cover;
 }
 
 .item-search-text {
