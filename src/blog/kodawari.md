@@ -1,5 +1,5 @@
 ---
-title: claire in paris - kodawari ramen
+title: 「 claire in paris 」 - kodawari ramen
 date: 2023-04-13
 featuredImage: ../images/other/kodawari_paitan.jpg
 ---
