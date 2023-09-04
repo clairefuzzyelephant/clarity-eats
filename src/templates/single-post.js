@@ -1,46 +1,58 @@
-import React from "react";
-import { graphql, Link } from "gatsby";
-import "../styling/single-post.css";
-import { Disqus } from 'gatsby-plugin-disqus';
-import Footer from "./Footer";
-import ocarinaTotoro from "../images/totoro-gif2music.gif";
+import React from "react"
+import { graphql, Link } from "gatsby"
+import "../styling/single-post.css"
+import { Disqus } from "gatsby-plugin-disqus"
+import Footer from "./Footer"
+import ocarinaTotoro from "../images/totoro-gif2music.gif"
+import { navigate } from "gatsby"
 
 export default function BlogPost({ data, pageContext }) {
-  const {prev, next} = pageContext
+  const { prev, next } = pageContext
   const post = data.markdownRemark
 
   let disqusConfig = {
-    url: 'https://clarity-eats.netlify.app' + post.fields.slug, 
+    url: "https://clarity-eats.netlify.app" + post.fields.slug,
     title: post.frontmatter.title,
-    identifier: post.id
-  };
+    identifier: post.id,
+  }
 
   return (
     <div className="singlePostViewSiteContainer">
-      <img className="singlePostViewSideImage" alt="Ocarina totoro" src={ocarinaTotoro}/>
+      <img
+        className="singlePostViewSideImage"
+        alt="Ocarina totoro"
+        src={ocarinaTotoro}
+      />
       <div className="singlePostContainer">
-        <Link to="/" className="singlePostBackButton">
-         ← back
-        </Link>
+        <div onClick={() => navigate(-1)} className="singlePostBackButton">
+          ← back
+        </div>
         <h1>{post.frontmatter.title}</h1>
         <small>{post.frontmatter.date}</small>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <div className="singlePostEndNavigation">
-          {prev ? 
-          <Link to={prev.fields.slug} className="singlePostBackButton">
-          ← previous post
-          </Link> : null}
-          {next ? 
-          <Link to={next.fields.slug} className="singlePostBackButton">
-          next post → 
-          </Link> : null}
+          {next ? (
+            <Link to={next.fields.slug} className="singlePostBackButton">
+              ← newer post
+            </Link>
+          ) : (
+            <div />
+          )}
+          <Link to="/" className="singlePostBackButton">
+            home
+          </Link>
+          {prev ? (
+            <Link to={prev.fields.slug} className="singlePostBackButton">
+              older post →
+            </Link>
+          ) : (
+            <div style={{ width: "100px" }} />
+          )}
         </div>
       </div>
       <div className="commentSection">
         <h1>share your thoughts!</h1>
-        <Disqus
-          config={disqusConfig}
-       />
+        <Disqus config={disqusConfig} />
       </div>
       <Footer />
     </div>

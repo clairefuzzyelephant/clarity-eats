@@ -67,6 +67,11 @@ export default function LeftSideBar({ site, image, titles, links }) {
             about
           </Link>
         </div>
+        <div>
+          <Link className="leftSidebarLink" to="/thebestof/">
+            faves
+          </Link>
+        </div>
         <div className="leftSidebarIconDiv">
           <a
             className="leftSidebarIcon"

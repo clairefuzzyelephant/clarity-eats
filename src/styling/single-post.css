@@ -14,10 +14,12 @@
     text-decoration: none;
     color: rgb(27, 17, 2);
     padding: 5px 10px;
+    width: fit-content;
 }
 
 .singlePostBackButton:hover {
     color: rgb(96, 60, 7);
+    cursor: pointer;
 }
 
 .commentSection {
@@ -62,6 +64,7 @@
 .singlePostEndNavigation {
     display: flex;
     justify-content: space-between;
+    max-width: 100%;
 }
 
 .singlePostViewSideImage {
