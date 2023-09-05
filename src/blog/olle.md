@@ -14,7 +14,7 @@ The first time I ordered naengmyeon at a random place in Boston, I didn't like i
 
 My friend got the gukbap, which I stole a little of - also amazing, a hearty, rich soup base. We also got the bossam to share - to be honest this one I wasn't a super big fan of, since the meat was a little tough. Nothing beats <a href="/chodanggol">Cho Dang Gol</a> bossam, I guess.
 
-The banchan spread was impressive - eomuk bokkeum and pajeon and this little rice cake thing that I absolutely _loved_ but couldn't figure out what it was called - my Korean-American friend didn't know either, so I guess it'll remain a mystery.
+The banchan spread was impressive - eomuk bokkeum and pajeon and this little rice cake thing that I absolutely _loved_ but couldn't figure out what it was called - my Korean-American friend didn't know either, so I guess it'll remain a mystery. (edit: some sort of gungjung tteokkbokki?)
 
 <div>
     <img src="../images/nyc/olle.jpg" 
