@@ -42,8 +42,10 @@ export default function TheBestOf() {
             <br />
             5. <a href="/raku">raku</a>
             <br />
+            6. <a href="/izakayatoribar">izakaya toribar</a>
             <br />
-            <i>last updated Sep 04, 2023</i>
+            <br />
+            <i>last updated Oct 07, 2023</i>
           </div>
         </div>
       </div>
