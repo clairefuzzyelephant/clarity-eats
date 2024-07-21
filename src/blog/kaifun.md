@@ -82,7 +82,7 @@ For the egg/tofu selection, we got the stir-fried egg with pepper and fermented 
     />
 </div>
 
-We also ordered something outside of the set menu, but my relatives _really_ recommended it. This was the stir-fried water bamboo with salted egg yolk. It looks unassuming, but this was actually one of my favorites of the entire meal. You'll understand when you get it.
+We also ordered something outside of the set menu, but my relatives _really_ recommended it. This was the stir-fried water bamboo with salted egg yolk. It looks unassuming, but this was actually one of my favorites of the entire meal. The refreshing juiciness of the bamboo paired with the crumbly, salty egg yolk was just the perfect combo! You'll understand when you get it.
 
 <div>
     <img src="../images/taiwan/kaifan-1.jpg"

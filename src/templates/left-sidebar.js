@@ -99,45 +99,47 @@ export default function LeftSideBar({ site, image, titles, links }) {
         <div className="archiveSection">
           <div>archive</div>
           <div>
-            {months.reverse().map((month, i) => (
-              <div
-                onMouseOver={() =>
-                  setExpandArchive(prevState => {
-                    prevState[month] = true
-                    return {
-                      ...prevState,
-                    }
-                  })
-                }
-                onMouseLeave={() =>
-                  setExpandArchive(prevState => {
-                    prevState[month] = false
-                    return {
-                      ...prevState,
-                    }
-                  })
-                }
-                className="archiveSectionMonthSection"
-              >
-                <Link className="archiveSectionLink" to={"/" + month}>
-                  {month.slice(0, month.length - 4) +
-                    " " +
-                    month.slice(month.length - 4)}
-                </Link>
-                {expandArchive && expandArchive[month] && titles
-                  ? titles[i].map((title, j) => (
-                      <div className="archiveSectionSubLinkSection">
-                        <Link
-                          className="archiveSectionSubLink"
-                          to={links[i][j]}
-                        >
-                          {title}
-                        </Link>
-                      </div>
-                    ))
-                  : null}
-              </div>
-            ))}
+            {months
+              .map((month, i) => (
+                <div
+                  onMouseOver={() =>
+                    setExpandArchive(prevState => {
+                      prevState[month] = true
+                      return {
+                        ...prevState,
+                      }
+                    })
+                  }
+                  onMouseLeave={() =>
+                    setExpandArchive(prevState => {
+                      prevState[month] = false
+                      return {
+                        ...prevState,
+                      }
+                    })
+                  }
+                  className="archiveSectionMonthSection"
+                >
+                  <Link className="archiveSectionLink" to={"/" + month}>
+                    {month.slice(0, month.length - 4) +
+                      " " +
+                      month.slice(month.length - 4)}
+                  </Link>
+                  {expandArchive && expandArchive[month] && titles
+                    ? titles[i].map((title, j) => (
+                        <div className="archiveSectionSubLinkSection">
+                          <Link
+                            className="archiveSectionSubLink"
+                            to={links[i][j]}
+                          >
+                            {title}
+                          </Link>
+                        </div>
+                      ))
+                    : null}
+                </div>
+              ))
+              .reverse()}
           </div>
         </div>
       ) : null}
