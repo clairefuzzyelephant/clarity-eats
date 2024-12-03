@@ -215,3 +215,5 @@ I think I often struggle with leaving "negative" reviews on things, so in the pa
 This post was my attempt at a fuller, more honest review on how I truly felt about each of these dining experiences. I still hold my stance that unnecessary negativity is, well, unnecessary, but in comparing different restaurants and dishes, I should be able to say which one was more or less delicious and why.
 
 So that being said, did any of these restaurants catch your eye? Any additions to the must-try list, or no-try list for that matter?
+
+_tags: japan, travel, omakase, ramen, udon, izakaya, teppanyaki, japanese food_
