@@ -139,6 +139,7 @@ export default function LeftSideBar({ site, image, titles, links }) {
                     : null}
                 </div>
               ))
+              .filter((_, i) => titles[i] && titles[i].length > 0)
               .reverse()}
           </div>
         </div>
