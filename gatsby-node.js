@@ -37,15 +37,7 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `)
-  const edges = result.data.allMarkdownRemark.edges
-  var posts = []
-  for (let i = 0; i < edges.length; i++) {
-    posts.push(edges[i])
-  }
-  posts.sort(
-    (a, b) =>
-      new Date(a.node.frontmatter.date) - new Date(b.node.frontmatter.date)
-  )
+  const posts = result.data.allMarkdownRemark.edges
   const postsPerPage = 10
   const numPages = Math.ceil(posts.length / postsPerPage)
 
@@ -64,45 +56,21 @@ exports.createPages = async ({ graphql, actions }) => {
     "december",
   ]
 
-  const postsByMonth = [0]
-  const postTitles = [[]]
-  const postLinks = [[]]
-  const monthLabels = []
-  let lastPostDate = null
-
   function monthLabel(dateObj) {
     return monthNames[dateObj.getMonth()] + dateObj.getFullYear().toString()
   }
 
-  for (let i = 0; i < posts.length; i++) {
-    const postDate = new Date(posts[i].node.frontmatter.date)
-    if (!lastPostDate) {
-      lastPostDate = postDate
-      monthLabels.push(monthLabel(lastPostDate))
+  // Group posts by month
+  const postsByMonth = {}
+  posts.forEach(({ node }) => {
+    const postDate = new Date(node.frontmatter.date)
+    const label = monthLabel(postDate)
+
+    if (!postsByMonth[label]) {
+      postsByMonth[label] = []
     }
-    if (monthLabel(postDate) == monthLabel(lastPostDate)) {
-      postsByMonth[postsByMonth.length - 1] += 1
-      postTitles[postTitles.length - 1].push(posts[i].node.frontmatter.title)
-      postLinks[postLinks.length - 1].push(posts[i].node.fields.slug)
-    } else {
-      var monthDiff = postDate.getMonth() - lastPostDate.getMonth()
-      if (monthDiff < 0) {
-        monthDiff += 12
-      }
-      let j = 1
-      while (j < monthDiff) {
-        postsByMonth.push(0)
-        postTitles.push([])
-        postLinks.push([])
-        j += 1
-      }
-      postsByMonth.push(1)
-      postTitles.push([posts[i].node.frontmatter.title])
-      postLinks.push([posts[i].node.fields.slug])
-      lastPostDate = postDate
-      monthLabels.push(monthLabel(lastPostDate))
-    }
-  }
+    postsByMonth[label].push(node)
+  })
 
   //all posts, broken up by 10 posts per page for ease of access
   Array.from({ length: numPages }).forEach((_, i) => {
@@ -114,28 +82,27 @@ exports.createPages = async ({ graphql, actions }) => {
         skip: i * postsPerPage,
         numPages,
         currentPage: i + 1,
-        titles: postTitles,
-        links: postLinks,
-        months: monthLabels,
+        posts,
+        postsByMonth: postsByMonth,
       },
     })
   })
 
-  //archive of posts, sorted by month
-  let accumulated = 0
-  postsByMonth.forEach((postGroup, i) => {
+  // archive of posts, sorted by month
+  accumulated = 0
+  Object.entries(postsByMonth).forEach(([monthLabel, postsInMonth]) => {
     createPage({
-      path: `/${monthLabels[i]}`,
+      path: `/${monthLabel}`,
       component: path.resolve(`./src/templates/index.js`),
       context: {
-        limit: postGroup,
+        posts: posts,
+        month: monthLabel,
         skip: accumulated,
-        titles: postTitles,
-        links: postLinks,
-        months: monthLabels,
+        limit: postsInMonth.length,
+        postsByMonth: postsByMonth,
       },
     })
-    accumulated += postGroup
+    accumulated += postsInMonth.length
   })
 
   result.data.allMarkdownRemark.edges.forEach(({ node }, index) => {

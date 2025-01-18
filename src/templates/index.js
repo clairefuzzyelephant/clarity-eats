@@ -12,7 +12,7 @@ import { Helmet } from "react-helmet"
 export default function Home({ data, pageContext }) {
   const { site, image, blog } = data
 
-  const { titles, links, months } = pageContext
+  const { postsByMonth } = pageContext
 
   const [results, setResults] = useState([])
   const [searchQuery, setSearchQuery] = useState("")
@@ -70,13 +70,7 @@ export default function Home({ data, pageContext }) {
       </Helmet>
       <div className="siteContainer">
         <div className="siteMainContent">
-          <LeftSideBar
-            site={site}
-            image={image}
-            titles={titles}
-            links={links}
-            months={months}
-          />
+          <LeftSideBar site={site} image={image} postsByMonth={postsByMonth} />
           <div className="postContainer">
             <Menu
               searchFunction={search}

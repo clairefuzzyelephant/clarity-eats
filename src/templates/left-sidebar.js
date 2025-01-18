@@ -7,10 +7,14 @@ import { AiOutlineInstagram, AiOutlineYoutube } from "react-icons/ai"
 
 import Subscribe from "./Subscribe.js"
 
-export default function LeftSideBar({ site, image, titles, links, months }) {
+export default function LeftSideBar({ site, image, postsByMonth }) {
   const { title, description } = site.siteMetadata
-  const showExpansion = titles
-    ? Object.fromEntries(titles.map((_, i) => [months[i], false]))
+
+  const showExpansion = postsByMonth
+    ? Object.keys(postsByMonth).reduce((show, month) => {
+        show[month] = false
+        return show
+      }, {})
     : null
 
   const [expandArchive, setExpandArchive] = useState(showExpansion)
@@ -67,52 +71,49 @@ export default function LeftSideBar({ site, image, titles, links, months }) {
         <p>subscribe for email updates!</p>
         <Subscribe />
       </div>{" "}
-      {titles ? (
+      {postsByMonth ? (
         <div className="archiveSection">
           <div>archive</div>
           <div>
-            {months
-              .map((month, i) => (
-                <div
-                  onMouseOver={() =>
-                    setExpandArchive(prevState => {
-                      prevState[month] = true
-                      return {
-                        ...prevState,
-                      }
-                    })
-                  }
-                  onMouseLeave={() =>
-                    setExpandArchive(prevState => {
-                      prevState[month] = false
-                      return {
-                        ...prevState,
-                      }
-                    })
-                  }
-                  className="archiveSectionMonthSection"
-                >
-                  <Link className="archiveSectionLink" to={"/" + month}>
-                    {month.slice(0, month.length - 4) +
-                      " " +
-                      month.slice(month.length - 4)}
-                  </Link>
-                  {expandArchive && expandArchive[month] && titles
-                    ? titles[i].map((title, j) => (
-                        <div className="archiveSectionSubLinkSection">
-                          <Link
-                            className="archiveSectionSubLink"
-                            to={links[i][j]}
-                          >
-                            {title}
-                          </Link>
-                        </div>
-                      ))
-                    : null}
-                </div>
-              ))
-              .filter((_, i) => titles[i] && titles[i].length > 0)
-              .reverse()}
+            {Object.entries(postsByMonth).map(([month, monthPosts]) => (
+              <div
+                onMouseOver={() => {
+                  setExpandArchive(prevState => {
+                    prevState[month] = true
+                    return {
+                      ...prevState,
+                    }
+                  })
+                }}
+                onMouseLeave={() =>
+                  setExpandArchive(prevState => {
+                    prevState[month] = false
+                    return {
+                      ...prevState,
+                    }
+                  })
+                }
+                className="archiveSectionMonthSection"
+              >
+                <Link className="archiveSectionLink" to={"/" + month}>
+                  {month.slice(0, month.length - 4) +
+                    " " +
+                    month.slice(month.length - 4)}
+                </Link>
+                {expandArchive && expandArchive[month] && monthPosts
+                  ? monthPosts.map(post => (
+                      <div className="archiveSectionSubLinkSection">
+                        <Link
+                          className="archiveSectionSubLink"
+                          to={post.fields.slug}
+                        >
+                          {post.frontmatter.title}
+                        </Link>
+                      </div>
+                    ))
+                  : null}
+              </div>
+            ))}
           </div>
         </div>
       ) : null}
