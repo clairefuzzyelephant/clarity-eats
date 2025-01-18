@@ -24,8 +24,8 @@ export default function BlogPost({ data, pageContext }) {
         src={ocarinaTotoro}
       />
       <div className="singlePostContainer">
-        <div onClick={() => navigate(-1)} className="singlePostBackButton">
-          ← back
+        <div onClick={() => navigate("/")} className="singlePostBackButton">
+          ← home
         </div>
         <h1>{post.frontmatter.title}</h1>
         <small>{post.frontmatter.date}</small>
