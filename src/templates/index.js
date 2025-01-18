@@ -12,7 +12,7 @@ import { Helmet } from "react-helmet"
 export default function Home({ data, pageContext }) {
   const { site, image, blog } = data
 
-  const { titles, links } = pageContext
+  const { titles, links, months } = pageContext
 
   const [results, setResults] = useState([])
   const [searchQuery, setSearchQuery] = useState("")
@@ -75,6 +75,7 @@ export default function Home({ data, pageContext }) {
             image={image}
             titles={titles}
             links={links}
+            months={months}
           />
           <div className="postContainer">
             <Menu

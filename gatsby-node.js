@@ -116,6 +116,7 @@ exports.createPages = async ({ graphql, actions }) => {
         currentPage: i + 1,
         titles: postTitles,
         links: postLinks,
+        months: monthLabels,
       },
     })
   })
@@ -131,6 +132,7 @@ exports.createPages = async ({ graphql, actions }) => {
         skip: accumulated,
         titles: postTitles,
         links: postLinks,
+        months: monthLabels,
       },
     })
     accumulated += postGroup

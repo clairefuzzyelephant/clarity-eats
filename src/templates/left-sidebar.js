@@ -7,36 +7,8 @@ import { AiOutlineInstagram, AiOutlineYoutube } from "react-icons/ai"
 
 import Subscribe from "./Subscribe.js"
 
-export default function LeftSideBar({ site, image, titles, links }) {
+export default function LeftSideBar({ site, image, titles, links, months }) {
   const { title, description } = site.siteMetadata
-  const currentDate = new Date() //hardcoded
-  let startDate = new Date("2022-06-02") //hardcoded, my first blog post
-
-  const monthNames = [
-    "january",
-    "february",
-    "march",
-    "april",
-    "may",
-    "june",
-    "july",
-    "august",
-    "september",
-    "october",
-    "november",
-    "december",
-  ]
-
-  const months = []
-  let i = 0
-  while (startDate < currentDate) {
-    if (titles && i >= titles.length) break
-    months.push(
-      monthNames[startDate.getMonth()] + startDate.getFullYear().toString()
-    )
-    startDate.setMonth(startDate.getMonth() + 1)
-    i += 1
-  }
   const showExpansion = titles
     ? Object.fromEntries(titles.map((_, i) => [months[i], false]))
     : null
