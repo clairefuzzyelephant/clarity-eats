@@ -37,7 +37,7 @@ Okay, that may be an exaggeration. I was definitely curious about the pastries, 
 
 I've only been to Paris twice, but Buvette definitely holds its own against many of the patisseries there. The only downside is that you have to wait outside, and also inside (it takes a while to get your food). But in my personal opinion - totally worth it. If you haven't been, give it a try and let me know what you think!
 
-_tags: nyc, French cuisine, brunch, food_
+_tags: location/nyc, French cuisine, brunch, food_
 
 
 
