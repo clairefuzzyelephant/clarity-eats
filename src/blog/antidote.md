@@ -4,7 +4,14 @@ date: 2025-02-28
 featuredImage: ../images/nyc/antidote-egg-tofu.jpg
 ---
 
-Last summer, I went to Antidote in Williamsburg for the first time. I'd heard about it a couple times before, and I figured I'd make the trek down to Brooklyn since summers in New York are for exploring.
+Last summer, I went to Antidote in Williamsburg for the first time. I'd heard about it a couple times before, and I figured I'd make the trek down to Brooklyn since summers in New York are for exploring. It was a sweltering day in June and my friend and I were seriously debating our choice to eat spicy food, but we took a leap of faith and went for it.
+
+<div>
+    <img src="../images/nyc/antidote-exterior.jpg"
+        alt="Antidote - Exterior"
+        style="height: 400px; object-fit:cover;display:inline-block;"
+    />
+</div>
 
 I had seen its glowing reviews on Google, but I was _really_ not prepared for how absolutely delicious everything was. We ordered four dishes and not a single one of them was disappointing. From the get-go, the sesame noodles had such a wonderful umami flavor (despite looking a little plain) and I couldn't get enough of it.
 
