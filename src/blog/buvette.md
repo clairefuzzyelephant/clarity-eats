@@ -11,7 +11,7 @@ If you haven't heard of it before, let me paint you a picture- Buvette is the ki
 I remember passing by Buvette countless times before I actually went, and always being discouraged by the long lines out the door. They don't take reservations, much like many of the popular brunch spots around NYC. However, the wait is actually not terrible if you don't go _too_ late, and if your party is relatively small. If you're lucky enough and the only party of three in the first ~15 people in line, you can probably get a spot within 10 minutes (which is what happened to me on my second visit). 
 
 <div>
-    <img src="../images/nyc/buvette_exterior.jpg"
+    <img src="../images/nyc/buvette-exterior.jpg"
         alt="Buvette - Exterior"
         style="height: 400px; object-fit:cover;display:inline-block;"
     />
