@@ -1,7 +1,7 @@
 ---
 title: 「 east coast adventures 」 - the best of portland, maine
 date: 2025-07-07
-featuredImage: ../images/europe/paris-onion-again.jpg
+featuredImage: ../images/other/maine-crispygai.jpg
 ---
 
 Last October, I visited Portland, Maine for the first time with my close friend. We found it rather similar to Boston in terms of appearance and vibes (lots of red brick sidewalks and brownstone), as well as in culinary inclinations (lots of seafood), although Portland is definitely smaller and old-town vibes. We were quite surprised to learn that Portland has actually become a foodie town in recent years, and at the end of our four-day excursion, there were definitely some restaurants that made lasting impressions.
