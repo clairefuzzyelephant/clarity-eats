@@ -1,7 +1,7 @@
 ---
 title: 「 nyc foodie 」 - konban
 date: 2025-08-10
-featuredImage: ../images/nyc/konban_tempura.jpg
+featuredImage: ../images/nyc/konban_ebi_katsu.jpg
 ---
 
 Konban had been on my list for a while but I'd always found a myriad of reasons not to go - reservations too hard to get, non-traditional-looking menu, etc. In the end it was clear my avoidance boiled down to one thing - I live on the East side, and konban is in Chelsea. Why would I take the L to get dinner when there are plenty of good Japanese options in Turtle Bay and St. Marks?
