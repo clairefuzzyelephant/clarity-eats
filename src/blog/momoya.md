@@ -1,6 +1,6 @@
 ---
 title: 「 nyc foodie 」 - momoya soho
-date: 2025-10-27
+date: 2025-10-26
 featuredImage: ../images/nyc/momoya_soho.jpg
 ---
 
