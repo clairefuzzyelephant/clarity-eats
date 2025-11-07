@@ -5,18 +5,17 @@
  */
 
 require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`
+  path: `.env.${process.env.NODE_ENV}`,
 })
 
 module.exports = {
   siteMetadata: {
     siteUrl: `https://clarityeats.com/`,
-    title: 'clarity eats',
-    description: 'a food-centered travel blog. devour at your own risk!'
+    title: "clarity eats",
+    description: "a food-centered travel blog. devour at your own risk!",
   },
   plugins: [
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -48,39 +47,39 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-flexsearch',
+      resolve: "gatsby-plugin-flexsearch",
       options: {
-        languages: ['en'],
-        type: 'MarkdownRemark',
+        languages: ["en"],
+        type: "MarkdownRemark",
         fields: [
           {
-            name: 'title',
+            name: "title",
             indexed: true,
-            resolver: 'frontmatter.title',
+            resolver: "frontmatter.title",
             attributes: {
-              encode: 'balance',
-              tokenize: 'strict',
+              encode: "balance",
+              tokenize: "strict",
               threshold: 6,
               depth: 3,
             },
             store: true,
           },
           {
-            name: 'body',
+            name: "body",
             indexed: true,
-            resolver: 'rawMarkdownBody',
+            resolver: "rawMarkdownBody",
             attributes: {
-              encode: 'balance',
-              tokenize: 'strict',
+              encode: "balance",
+              tokenize: "strict",
               threshold: 6,
               depth: 3,
             },
             store: true,
           },
           {
-            name: 'url',
+            name: "url",
             indexed: false,
-            resolver: 'fields.slug',
+            resolver: "fields.slug",
             store: true,
           },
           `gatsby-plugin-nodejs`,
@@ -90,14 +89,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-          shortname: `clarity-eats`
+        shortname: `clarity-eats`,
       },
     },
     {
-      resolve: 'gatsby-plugin-mailchimp',
+      resolve: "gatsby-plugin-mailchimp",
       options: {
-          endpoint: process.env.MAILCHIMP_ENDPOINT, // string; add your MC list endpoint here; see instructions below
-          timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
+        endpoint: process.env.MAILCHIMP_ENDPOINT, // string; add your MC list endpoint here; see instructions below
+        timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
       },
     },
   ],
