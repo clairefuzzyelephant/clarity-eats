@@ -29,23 +29,22 @@ export default function TheBestOf() {
             <br />
             <br />
             <h3>nyc</h3>
-            1. <a href="/udonstmarks">udon st. marks</a>
+            1. <a href="/antidote">antidote</a>
             <br />
-            2. <a href="/szechuanmountainhouse">
-              mountain house manhattan
-            </a>{" "}
-            (prev. szechuan mountain house)
+            2. chongqing lao zao
             <br />
-            3. <a href="/chodanggol">cho dang gol</a>
+            3. <a href="/udonstmarks">udon st. marks</a>{" "}
+            <i>
+              Note: This place became TikTok-famous recently so beware of a
+              wait!
+            </i>
             <br />
-            4. <a href="/olle">olle</a>
+            4. <a href="/chodanggol">cho dang gol</a>
             <br />
-            5. <a href="/raku">raku</a>
-            <br />
-            6. <a href="/izakayatoribar">izakaya toribar</a>
+            5. traveler
             <br />
             <br />
-            <i>last updated Oct 07, 2023</i>
+            <i>last updated April 3, 2026</i>
           </div>
         </div>
       </div>
