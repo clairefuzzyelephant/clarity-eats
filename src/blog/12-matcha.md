@@ -1,6 +1,6 @@
 ---
 title: 「 nyc foodie 」 - 12 matcha
-date: 2026-06-07
+date: 2026-06-06
 featuredImage: ../images/nyc/12-matcha.jpg
 ---
 
@@ -10,7 +10,7 @@ It is NOT pure hype! To be fair, I'm not sure if I would advocate for waiting 2 
 
 <div style="width: 100%; text-align: center;">
     <img src="../images/nyc/12-matcha.jpg"
-        alt="View at the top of Victoria Peak"
+        alt="Iced matcha latte at 12 matcha"
         style="height: 400px; object-fit:cover;display:inline-block;"
     />
     <small>Iced matcha latte at 12 matcha</small>
