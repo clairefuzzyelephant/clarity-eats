@@ -118,4 +118,4 @@ We also ordered dessert - sorbet and creme brulee, but those were less remarkabl
 
 This was my second time in Paris, and although the weather was drearier, the food was definitely way better (with pre-planning and reservations). I formed a deeper appreciation for French cuisine on this trip, especially the cheese potatoes...
 
-_tags: france, travel, bakeries, restaurants_
+_tags: location/europe, france, travel, bakeries, restaurants_

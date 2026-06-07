@@ -60,4 +60,4 @@ My friend got the sea bream paitan ramen (thicker broth) with additional chef's 
 
 If you ever go to the Louvre, you _have_ to stop by this restaurant. Period. Trust me, it will not disappoint.
 
-_tags: paris, france, japanese cuisine, ramen_
+_tags: location/europe, paris, france, japanese cuisine, ramen_

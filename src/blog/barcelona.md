@@ -128,4 +128,4 @@ On our last day before our flight, we ate breakfast (for the second time) at a l
 
 Most of the places I've been to Europe have wowed me with their architecture and views, but left me craving Asian food at home. Barcelona was the first exception - I dreamed about that plate of seafood for weeks afterwards. Even seemingly "random" restaurants in touristy areas had food that impressed me, or at the very least, did not disappoint. I would totally love to visit Spain again, maybe Madrid or Porto next - so send any recommendations my way please!
 
-_tags: spain, barcelona, spanish food, paella, jamon iberico, travel_
+_tags: location/europe, spain, barcelona, spanish food, paella, jamon iberico, travel_
