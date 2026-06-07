@@ -1,6 +1,6 @@
 ---
-title: 「 nyc foodie 」 - gulp & traveler
-date: 2026-06-07
+title: 「 taiwanese foodie 」 - gulp & traveler, nyc
+date: 2026-06-06
 featuredImage: ../images/nyc/gulp_entrance.jpg
 ---
 

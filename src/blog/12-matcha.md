@@ -1,6 +1,6 @@
 ---
 title: 「 nyc foodie 」 - 12 matcha
-date: 2026-06-06
+date: 2026-06-05
 featuredImage: ../images/nyc/12-matcha.jpg
 ---
 
