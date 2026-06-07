@@ -1,7 +1,7 @@
 ---
 title: 「 claire in spain 」 - seville & madrid
 date: 2026-06-07
-featuredImage: ../images/europe/el_pasaje_more_scallop.jpg
+featuredImage: ../images/europe/arroceria_paella.jpg
 ---
 
 This was my second time in Spain, but my first time in Seville and Madrid! I really enjoyed my time there, especially in Seville - it felt surprisingly small-town-esque despite the influx of tourists, and the shifted mealtimes (and the siesta) definitely took a bit of getting used to for us. The Seville sunshine was no-joke - my family and I went at the end of December and it felt solidly autumn. I was hesitant about Madrid since I feel like many people have told me Madrid doesn't have good food, but I honestly thought the places we went to were really great.
