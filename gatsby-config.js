@@ -15,7 +15,33 @@ module.exports = {
     description: "a food-centered travel blog. devour at your own risk!",
   },
   plugins: [
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        serialize: ({ path }) => {
+          let priority = 0.5
+
+          if (path === `/`) {
+            priority = 1.0
+          } else if (path.startsWith(`/page`)) {
+            priority = 0.3
+          } else if (
+            /^\/(january|february|march|april|may|june|july|august|september|october|november|december)\d{4}\/?$/.test(
+              path
+            )
+          ) {
+            priority = 0.4
+          } else {
+            priority = 0.8
+          }
+
+          return {
+            url: path,
+            priority,
+          }
+        },
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
