@@ -34,7 +34,15 @@ export default function SearchResults({ results, searchQuery, queryLabel }) {
           if (results[i].title === posts[j].frontmatter.title) {
             imgs[results[i].title] =
               posts[j].frontmatter.featuredImage.childImageSharp.fluid
-            results[i]["date"] = posts[j].frontmatter.date
+            const formattedDate = new Date(
+              posts[j].frontmatter.date
+            ).toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+              timeZone: "UTC",
+            })
+            results[i]["date"] = formattedDate
           }
         }
       }
@@ -52,6 +60,9 @@ export default function SearchResults({ results, searchQuery, queryLabel }) {
                   </div>
                   <div className="item-search-text">
                     <h4>{page.title}</h4>
+                    <p>
+                      <i>{page.date}</i>
+                    </p>
                     <p>{page.body.slice(0, 140) + "..."}</p>
                   </div>
                 </Link>
