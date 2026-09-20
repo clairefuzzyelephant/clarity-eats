@@ -26,6 +26,7 @@ export default function Menu({
     { value: "location/sfba", label: "sf bay area" },
     { value: "location/taiwan", label: "taiwan" },
     { value: "location/europe", label: "europe" },
+    { value: "location/japan", label: "japan" },
   ]
 
   const customStyles = {

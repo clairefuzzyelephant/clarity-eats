@@ -216,4 +216,4 @@ This post was my attempt at a fuller, more honest review on how I truly felt abo
 
 So that being said, did any of these restaurants catch your eye? Any additions to the must-try list, or no-try list for that matter?
 
-_tags: japan, travel, omakase, ramen, udon, izakaya, teppanyaki, japanese food_
+_tags: location/japan, travel, omakase, ramen, udon, izakaya, teppanyaki, japanese food_
